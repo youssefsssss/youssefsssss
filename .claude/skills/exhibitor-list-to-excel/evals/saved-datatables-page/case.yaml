@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: saved-datatables-page
+expected_outcome: |
+  An .xlsx workbook with one row per exhibitor: exactly 573 rows in the page's own order, each with
+  the company name, country and stand number as listed (blank only for the 3 exhibitors listed
+  without one), the product profiles and categories where the page has them (210 exhibitors) and
+  logo URLs (220 exhibitors). Names are free of invisible characters, the "IFP Test - Gaelle" entry
+  is kept but flagged, and the reply states the total and how completeness was checked.
+context:
+  scaffold_script: place-files.sh
