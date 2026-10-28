@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: live-ifp-sister-site
+expected_outcome: |
+  An .xlsx workbook with one row per exhibitor, matching the site's own total at the time of the run
+  (104 exhibitors on 6 pages on 2026-10-28), with company name, country, stand as listed, product
+  profiles and categories, logo URLs, and the free-text "Company Info" description for the
+  exhibitors whose popup has one (22 on 2026-10-28). The reply states the total, how it was
+  checked against the site, and when the snapshot was taken.

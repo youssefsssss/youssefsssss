@@ -1,0 +1,13 @@
+schema_version: "1.1"
+name: paginated-site-detail-pages
+expected_outcome: |
+  An .xlsx workbook with exactly 137 exhibitors (the directory's own count), one row each, even
+  though the seven list pages hold 138 cards: "Lotus Poultry Systems" is listed on both page 3 and
+  page 4. The two different companies called "Delta Foods" (Egypt, stand A-14; Greece, stand A-42)
+  are both kept. Every field from the profile pages is captured: country, hall, stand, website,
+  email, phone, address, products and description. The 15 Cloudflare-protected emails are decoded
+  to real addresses, fields a profile does not show are left blank rather than invented, and names
+  are clean (for example "Golden Tractors International" without the source's extra spaces). The
+  reply states the total and how completeness was checked.
+context:
+  scaffold_script: place-files.sh

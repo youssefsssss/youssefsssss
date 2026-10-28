@@ -1,0 +1,2672 @@
+{
+ "total": 137,
+ "list_rows": 138,
+ "duplicate_listed": "Lotus Poultry Systems",
+ "exhibitors": [
+  {
+   "no": 1,
+   "name": "Amber Agritech International",
+   "country": "Kenya",
+   "hall": "Hall E",
+   "stand": "E-05",
+   "website": "https://www.amberagritechinternati.com",
+   "email": "export@amberagritechinternati.com",
+   "phone": "+254 357 203 9403",
+   "address": "23 Industrial Zone, Nairobi",
+   "products": [
+    "Cold storage",
+    "Drones & sensors",
+    "Grains & pulses",
+    "Irrigation systems",
+    "Tractors & machinery"
+   ],
+   "description": "Amber Agritech International supplies cold storage and drones & sensors to growers and food producers. Visit us in Hall E, stand E-05.",
+   "slug": "amber-agritech-international",
+   "email_protected": false
+  },
+  {
+   "no": 2,
+   "name": "Amber Agro Ltd",
+   "country": "Türkiye",
+   "hall": "Hall A",
+   "stand": "A-40",
+   "website": "https://www.amberagroltd.com",
+   "email": "info@amberagroltd.com",
+   "phone": "+90 385 406 3446",
+   "address": "136 Agri Park, Izmir",
+   "products": [
+    "Cold storage",
+    "Fresh fruits",
+    "Spices & herbs"
+   ],
+   "description": "Amber Agro Ltd supplies cold storage and fresh fruits to growers and food producers. Visit us in Hall A, stand A-40.",
+   "slug": "amber-agro-ltd",
+   "email_protected": false
+  },
+  {
+   "no": 3,
+   "name": "Amber Farms Trading",
+   "country": "Nigeria",
+   "hall": "Hall D",
+   "stand": "D-27",
+   "website": "https://www.amberfarmstrading.com",
+   "email": "info@amberfarmstrading.com",
+   "phone": "+234 234 785 2497",
+   "address": "78 Market Street, Lagos",
+   "products": [
+    "Drones & sensors",
+    "Packaging"
+   ],
+   "description": "Amber Farms Trading supplies drones & sensors and packaging to growers and food producers. Visit us in Hall D, stand D-27.",
+   "slug": "amber-farms-trading",
+   "email_protected": true
+  },
+  {
+   "no": 4,
+   "name": "Amber Feed International",
+   "country": "Tunisia",
+   "hall": "Hall A",
+   "stand": "A-33",
+   "website": "https://www.amberfeedinternational.com",
+   "email": "contact@amberfeedinternational.com",
+   "phone": "+216 680 377 9768",
+   "address": "137 Industrial Zone, Sfax",
+   "products": [
+    "Animal feed",
+    "Fresh fruits",
+    "Grains & pulses",
+    "Poultry equipment"
+   ],
+   "description": "Amber Feed International supplies animal feed and fresh fruits to growers and food producers. Visit us in Hall A, stand A-33.",
+   "slug": "amber-feed-international",
+   "email_protected": false
+  },
+  {
+   "no": 5,
+   "name": "Amber Packaging Systems",
+   "country": "Saudi Arabia",
+   "hall": "Hall B",
+   "stand": "B-52",
+   "website": "https://www.amberpackagingsystems.com",
+   "email": "sales@amberpackagingsystems.com",
+   "phone": "+966 255 297 6004",
+   "address": "170 Harbour Road, Riyadh",
+   "products": [
+    "Grains & pulses",
+    "Organic produce",
+    "Poultry equipment"
+   ],
+   "description": "Amber Packaging Systems supplies grains & pulses and organic produce to growers and food producers. Visit us in Hall B, stand B-52.",
+   "slug": "amber-packaging-systems",
+   "email_protected": true
+  },
+  {
+   "no": 6,
+   "name": "Amber Spices Ltd",
+   "country": "Greece",
+   "hall": "Hall D",
+   "stand": "D-02",
+   "website": "https://www.amberspicesltd.com",
+   "email": "contact@amberspicesltd.com",
+   "phone": "+30 214 918 8023",
+   "address": "130 Industrial Zone, Thessaloniki",
+   "products": [
+    "Dairy equipment",
+    "Fresh vegetables",
+    "Greenhouses",
+    "Veterinary products",
+    "Water treatment"
+   ],
+   "description": "Amber Spices Ltd supplies dairy equipment and fresh vegetables to growers and food producers. Visit us in Hall D, stand D-02.",
+   "slug": "amber-spices-ltd",
+   "email_protected": false
+  },
+  {
+   "no": 7,
+   "name": "Anadolu Tarım Ürünleri A.Ş.",
+   "country": "Türkiye",
+   "hall": "Hall E",
+   "stand": "E-26",
+   "website": "https://www.anadolutarim.com",
+   "email": "info@anadolutarim.com",
+   "phone": "+90 832 613 8978",
+   "address": "17 Industrial Zone, Izmir",
+   "products": [
+    "Dairy equipment",
+    "Irrigation systems",
+    "Packaging",
+    "Seeds",
+    "Veterinary products"
+   ],
+   "description": "Anadolu Tarım Ürünleri A.Ş. supplies dairy equipment and irrigation systems to growers and food producers. Visit us in Hall E, stand E-26.",
+   "slug": "anadolu-tarim",
+   "email_protected": false
+  },
+  {
+   "no": 8,
+   "name": "Atlas Feed LLC",
+   "country": "Egypt",
+   "hall": "Hall D",
+   "stand": "D-52",
+   "website": "https://www.atlasfeedllc.com",
+   "email": "sales@atlasfeedllc.com",
+   "phone": "+20 725 641 7978",
+   "address": "187 Market Street, Cairo",
+   "products": [
+    "Animal feed",
+    "Fresh fruits",
+    "Poultry equipment",
+    "Spices & herbs"
+   ],
+   "description": "Atlas Feed LLC supplies animal feed and fresh fruits to growers and food producers. Visit us in Hall D, stand D-52.",
+   "slug": "atlas-feed-llc",
+   "email_protected": false
+  },
+  {
+   "no": 9,
+   "name": "Atlas Feed Ltd",
+   "country": "Egypt",
+   "hall": "Hall B",
+   "stand": "B-58",
+   "website": "https://www.atlasfeedltd.com",
+   "email": "export@atlasfeedltd.com",
+   "phone": "+20 675 202 2698",
+   "address": "34 Industrial Zone, Cairo",
+   "products": [
+    "Agritech software",
+    "Crop protection",
+    "Dairy equipment",
+    "Drones & sensors",
+    "Greenhouses"
+   ],
+   "description": "Atlas Feed Ltd supplies agritech software and crop protection to growers and food producers. Visit us in Hall B, stand B-58.",
+   "slug": "atlas-feed-ltd",
+   "email_protected": false
+  },
+  {
+   "no": 10,
+   "name": "Ağaoğlu Tohumculuk Ltd. Şti.",
+   "country": "Türkiye",
+   "hall": "Hall B",
+   "stand": "B-12",
+   "website": "",
+   "email": "export@agaoglutohumculuk.com",
+   "phone": "+90 499 625 2193",
+   "address": "",
+   "products": [
+    "Drones & sensors",
+    "Fresh vegetables"
+   ],
+   "description": "Ağaoğlu Tohumculuk Ltd. Şti. supplies drones & sensors and fresh vegetables to growers and food producers. Visit us in Hall B, stand B-12.",
+   "slug": "agaoglu-tohumculuk",
+   "email_protected": true
+  },
+  {
+   "no": 11,
+   "name": "Blue Agro LLC",
+   "country": "India",
+   "hall": "Hall B",
+   "stand": "B-11",
+   "website": "https://www.blueagrollc.com",
+   "email": "",
+   "phone": "+91 346 606 3747",
+   "address": "166 Market Street, Pune",
+   "products": [
+    "Cold storage",
+    "Grains & pulses",
+    "Greenhouses",
+    "Tractors & machinery"
+   ],
+   "description": "Blue Agro LLC supplies cold storage and grains & pulses to growers and food producers. Visit us in Hall B, stand B-11.",
+   "slug": "blue-agro-llc",
+   "email_protected": false
+  },
+  {
+   "no": 12,
+   "name": "Blue Cold Chain S.A.E.",
+   "country": "Spain",
+   "hall": "Hall A",
+   "stand": "A-51",
+   "website": "https://www.bluecoldchainsae.com",
+   "email": "",
+   "phone": "+34 538 887 7866",
+   "address": "144 Harbour Road, Almería",
+   "products": [
+    "Fertilizers",
+    "Packaging",
+    "Tractors & machinery"
+   ],
+   "description": "Blue Cold Chain S.A.E. supplies fertilizers and packaging to growers and food producers. Visit us in Hall A, stand A-51.",
+   "slug": "blue-cold-chain-s-a-e",
+   "email_protected": false
+  },
+  {
+   "no": 13,
+   "name": "Blue Farms Group",
+   "country": "Italy",
+   "hall": "Hall E",
+   "stand": "E-38",
+   "website": "https://www.bluefarmsgroup.com",
+   "email": "sales@bluefarmsgroup.com",
+   "phone": "",
+   "address": "",
+   "products": [
+    "Greenhouses",
+    "Irrigation systems",
+    "Veterinary products",
+    "Water treatment"
+   ],
+   "description": "Blue Farms Group supplies greenhouses and irrigation systems to growers and food producers. Visit us in Hall E, stand E-38.",
+   "slug": "blue-farms-group",
+   "email_protected": false
+  },
+  {
+   "no": 14,
+   "name": "Blue Farms Industries",
+   "country": "Egypt",
+   "hall": "Hall D",
+   "stand": "D-59",
+   "website": "https://www.bluefarmsindustries.com",
+   "email": "info@bluefarmsindustries.com",
+   "phone": "+20 568 500 6702",
+   "address": "216 Industrial Zone, Cairo",
+   "products": [
+    "Drones & sensors",
+    "Irrigation systems",
+    "Packaging",
+    "Water treatment"
+   ],
+   "description": "Blue Farms Industries supplies drones & sensors and irrigation systems to growers and food producers. Visit us in Hall D, stand D-59.",
+   "slug": "blue-farms-industries",
+   "email_protected": false
+  },
+  {
+   "no": 15,
+   "name": "Blue Farms Systems",
+   "country": "Italy",
+   "hall": "Hall C",
+   "stand": "C-24",
+   "website": "https://www.bluefarmssystems.com",
+   "email": "sales@bluefarmssystems.com",
+   "phone": "+39 873 337 6724",
+   "address": "110 Harbour Road, Verona",
+   "products": [
+    "Dairy equipment",
+    "Drones & sensors",
+    "Fresh vegetables",
+    "Water treatment"
+   ],
+   "description": "Blue Farms Systems supplies dairy equipment and drones & sensors to growers and food producers. Visit us in Hall C, stand C-24.",
+   "slug": "blue-farms-systems",
+   "email_protected": false
+  },
+  {
+   "no": 16,
+   "name": "Blue Grains International",
+   "country": "India",
+   "hall": "Hall B",
+   "stand": "B-46",
+   "website": "https://www.bluegrainsinternationa.com",
+   "email": "info@bluegrainsinternationa.com",
+   "phone": "+91 579 968 3699",
+   "address": "250 Market Street, Pune",
+   "products": [
+    "Crop protection",
+    "Greenhouses"
+   ],
+   "description": "Blue Grains International supplies crop protection and greenhouses to growers and food producers. Visit us in Hall B, stand B-46.",
+   "slug": "blue-grains-international",
+   "email_protected": false
+  },
+  {
+   "no": 17,
+   "name": "Blue Grains Systems",
+   "country": "Morocco",
+   "hall": "Hall A",
+   "stand": "A-47",
+   "website": "https://www.bluegrainssystems.com",
+   "email": "export@bluegrainssystems.com",
+   "phone": "+212 726 341 2043",
+   "address": "210 Industrial Zone, Agadir",
+   "products": [
+    "Crop protection",
+    "Dairy equipment",
+    "Drones & sensors",
+    "Organic produce",
+    "Poultry equipment"
+   ],
+   "description": "Blue Grains Systems supplies crop protection and dairy equipment to growers and food producers. Visit us in Hall A, stand A-47.",
+   "slug": "blue-grains-systems",
+   "email_protected": false
+  },
+  {
+   "no": 18,
+   "name": "Blue Tractors Systems",
+   "country": "Türkiye",
+   "hall": "Hall B",
+   "stand": "B-33",
+   "website": "https://www.bluetractorssystems.com",
+   "email": "export@bluetractorssystems.com",
+   "phone": "+90 815 407 5874",
+   "address": "211 Market Street, Izmir",
+   "products": [
+    "Animal feed",
+    "Cold storage"
+   ],
+   "description": "",
+   "slug": "blue-tractors-systems",
+   "email_protected": false
+  },
+  {
+   "no": 19,
+   "name": "Cedar Dairy Systems",
+   "country": "Spain",
+   "hall": "Hall B",
+   "stand": "B-32",
+   "website": "https://www.cedardairysystems.com",
+   "email": "export@cedardairysystems.com",
+   "phone": "+34 218 128 2831",
+   "address": "80 Market Street, Almería",
+   "products": [
+    "Agritech software",
+    "Fertilizers",
+    "Fresh vegetables",
+    "Organic produce"
+   ],
+   "description": "Cedar Dairy Systems supplies agritech software and fertilizers to growers and food producers. Visit us in Hall B, stand B-32.",
+   "slug": "cedar-dairy-systems",
+   "email_protected": false
+  },
+  {
+   "no": 20,
+   "name": "Cedar Grains LLC",
+   "country": "Greece",
+   "hall": "Hall E",
+   "stand": "E-13",
+   "website": "https://www.cedargrainsllc.com",
+   "email": "info@cedargrainsllc.com",
+   "phone": "+30 713 742 4878",
+   "address": "71 Industrial Zone, Thessaloniki",
+   "products": [
+    "Drones & sensors",
+    "Grains & pulses",
+    "Irrigation systems",
+    "Tractors & machinery"
+   ],
+   "description": "Cedar Grains LLC supplies drones & sensors and grains & pulses to growers and food producers. Visit us in Hall E, stand E-13.",
+   "slug": "cedar-grains-llc",
+   "email_protected": false
+  },
+  {
+   "no": 21,
+   "name": "Coral Dairy Co.",
+   "country": "Türkiye",
+   "hall": "Hall A",
+   "stand": "A-22",
+   "website": "https://www.coraldairyco.com",
+   "email": "info@coraldairyco.com",
+   "phone": "+90 525 795 3329",
+   "address": "21 Industrial Zone, Izmir",
+   "products": [
+    "Cold storage",
+    "Dairy equipment",
+    "Grains & pulses"
+   ],
+   "description": "Coral Dairy Co. supplies cold storage and dairy equipment to growers and food producers. Visit us in Hall A, stand A-22.",
+   "slug": "coral-dairy-co",
+   "email_protected": false
+  },
+  {
+   "no": 22,
+   "name": "Coral Fertilizers Co.",
+   "country": "Italy",
+   "hall": "Hall B",
+   "stand": "B-47",
+   "website": "https://www.coralfertilizersco.com",
+   "email": "sales@coralfertilizersco.com",
+   "phone": "+39 993 539 6753",
+   "address": "139 Market Street, Verona",
+   "products": [
+    "Agritech software",
+    "Poultry equipment",
+    "Seeds",
+    "Water treatment"
+   ],
+   "description": "Coral Fertilizers Co. supplies agritech software and poultry equipment to growers and food producers. Visit us in Hall B, stand B-47.",
+   "slug": "coral-fertilizers-co",
+   "email_protected": false
+  },
+  {
+   "no": 23,
+   "name": "Coral Greenhouses Group",
+   "country": "Kenya",
+   "hall": "Hall C",
+   "stand": "C-29",
+   "website": "https://www.coralgreenhousesgroup.com",
+   "email": "export@coralgreenhousesgroup.com",
+   "phone": "+254 719 447 7654",
+   "address": "70 Market Street, Nairobi",
+   "products": [
+    "Fertilizers",
+    "Fresh fruits",
+    "Greenhouses",
+    "Organic produce"
+   ],
+   "description": "Coral Greenhouses Group supplies fertilizers and fresh fruits to growers and food producers. Visit us in Hall C, stand C-29.",
+   "slug": "coral-greenhouses-group",
+   "email_protected": false
+  },
+  {
+   "no": 24,
+   "name": "Coral Organics Trading",
+   "country": "Morocco",
+   "hall": "Hall D",
+   "stand": "D-17",
+   "website": "https://www.coralorganicstrading.com",
+   "email": "info@coralorganicstrading.com",
+   "phone": "",
+   "address": "176 Harbour Road, Agadir",
+   "products": [
+    "Animal feed",
+    "Drones & sensors",
+    "Fresh fruits",
+    "Grains & pulses",
+    "Packaging"
+   ],
+   "description": "Coral Organics Trading supplies animal feed and drones & sensors to growers and food producers. Visit us in Hall D, stand D-17.",
+   "slug": "coral-organics-trading",
+   "email_protected": true
+  },
+  {
+   "no": 25,
+   "name": "Coral Seeds S.A.E.",
+   "country": "United Arab Emirates",
+   "hall": "Hall B",
+   "stand": "B-36",
+   "website": "https://www.coralseedssae.com",
+   "email": "export@coralseedssae.com",
+   "phone": "",
+   "address": "140 Industrial Zone, Dubai",
+   "products": [
+    "Cold storage",
+    "Fertilizers",
+    "Packaging",
+    "Spices & herbs"
+   ],
+   "description": "Coral Seeds S.A.E. supplies cold storage and fertilizers to growers and food producers. Visit us in Hall B, stand B-36.",
+   "slug": "coral-seeds-s-a-e",
+   "email_protected": false
+  },
+  {
+   "no": 26,
+   "name": "Crystal Dairy Holding",
+   "country": "Egypt",
+   "hall": "Hall B",
+   "stand": "B-39",
+   "website": "https://www.crystaldairyholding.com",
+   "email": "info@crystaldairyholding.com",
+   "phone": "+20 743 373 8423",
+   "address": "38 Harbour Road, Cairo",
+   "products": [
+    "Animal feed",
+    "Greenhouses",
+    "Organic produce"
+   ],
+   "description": "Crystal Dairy Holding supplies animal feed and greenhouses to growers and food producers. Visit us in Hall B, stand B-39.",
+   "slug": "crystal-dairy-holding",
+   "email_protected": false
+  },
+  {
+   "no": 27,
+   "name": "Crystal Feed Trading",
+   "country": "Türkiye",
+   "hall": "Hall A",
+   "stand": "A-39",
+   "website": "https://www.crystalfeedtrading.com",
+   "email": "export@crystalfeedtrading.com",
+   "phone": "+90 487 769 3241",
+   "address": "98 Agri Park, Izmir",
+   "products": [
+    "Crop protection",
+    "Fresh vegetables",
+    "Greenhouses",
+    "Spices & herbs"
+   ],
+   "description": "Crystal Feed Trading supplies crop protection and fresh vegetables to growers and food producers. Visit us in Hall A, stand A-39.",
+   "slug": "crystal-feed-trading",
+   "email_protected": false
+  },
+  {
+   "no": 28,
+   "name": "Crystal Irrigation International",
+   "country": "Türkiye",
+   "hall": "Hall D",
+   "stand": "D-26",
+   "website": "https://www.crystalirrigationinter.com",
+   "email": "sales@crystalirrigationinter.com",
+   "phone": "+90 436 496 9240",
+   "address": "238 Agri Park, Izmir",
+   "products": [
+    "Fresh fruits",
+    "Greenhouses",
+    "Irrigation systems",
+    "Poultry equipment",
+    "Tractors & machinery"
+   ],
+   "description": "Crystal Irrigation International supplies fresh fruits and greenhouses to growers and food producers. Visit us in Hall D, stand D-26.",
+   "slug": "crystal-irrigation-international",
+   "email_protected": true
+  },
+  {
+   "no": 29,
+   "name": "Delta Foods",
+   "country": "Egypt",
+   "hall": "Hall A",
+   "stand": "A-14",
+   "website": "https://www.deltafoodsegypt.com",
+   "email": "info@deltafoodsegypt.com",
+   "phone": "+20 470 447 9263",
+   "address": "205 Market Street, Cairo",
+   "products": [
+    "Agritech software",
+    "Dairy equipment",
+    "Irrigation systems"
+   ],
+   "description": "Delta Foods supplies agritech software and dairy equipment to growers and food producers. Visit us in Hall A, stand A-14.",
+   "slug": "delta-foods-egypt",
+   "email_protected": false
+  },
+  {
+   "no": 30,
+   "name": "Delta Foods",
+   "country": "Greece",
+   "hall": "Hall A",
+   "stand": "A-42",
+   "website": "https://www.deltafoodsgreece.com",
+   "email": "export@deltafoodsgreece.com",
+   "phone": "+30 878 419 6121",
+   "address": "142 Industrial Zone, Thessaloniki",
+   "products": [
+    "Drones & sensors",
+    "Fresh vegetables",
+    "Poultry equipment",
+    "Spices & herbs",
+    "Veterinary products"
+   ],
+   "description": "Delta Foods supplies drones & sensors and fresh vegetables to growers and food producers. Visit us in Hall A, stand A-42.",
+   "slug": "delta-foods-greece",
+   "email_protected": false
+  },
+  {
+   "no": 31,
+   "name": "Falcon Agritech Systems",
+   "country": "Egypt",
+   "hall": "Hall C",
+   "stand": "C-02",
+   "website": "https://www.falconagritechsystems.com",
+   "email": "contact@falconagritechsystems.com",
+   "phone": "+20 988 613 4501",
+   "address": "68 Harbour Road, Cairo",
+   "products": [
+    "Drones & sensors",
+    "Fertilizers"
+   ],
+   "description": "Falcon Agritech Systems supplies drones & sensors and fertilizers to growers and food producers. Visit us in Hall C, stand C-02.",
+   "slug": "falcon-agritech-systems",
+   "email_protected": false
+  },
+  {
+   "no": 32,
+   "name": "Falcon Agro Industries",
+   "country": "Saudi Arabia",
+   "hall": "Hall C",
+   "stand": "C-25",
+   "website": "https://www.falconagroindustries.com",
+   "email": "sales@falconagroindustries.com",
+   "phone": "+966 830 493 2709",
+   "address": "5 Agri Park, Riyadh",
+   "products": [
+    "Grains & pulses",
+    "Spices & herbs"
+   ],
+   "description": "Falcon Agro Industries supplies grains & pulses and spices & herbs to growers and food producers. Visit us in Hall C, stand C-25.",
+   "slug": "falcon-agro-industries",
+   "email_protected": false
+  },
+  {
+   "no": 33,
+   "name": "Falcon Dairy Group",
+   "country": "Kenya",
+   "hall": "Hall C",
+   "stand": "C-36",
+   "website": "https://www.falcondairygroup.com",
+   "email": "sales@falcondairygroup.com",
+   "phone": "+254 376 947 9269",
+   "address": "183 Industrial Zone, Nairobi",
+   "products": [
+    "Drones & sensors",
+    "Grains & pulses",
+    "Irrigation systems",
+    "Seeds",
+    "Tractors & machinery"
+   ],
+   "description": "Falcon Dairy Group supplies drones & sensors and grains & pulses to growers and food producers. Visit us in Hall C, stand C-36.",
+   "slug": "falcon-dairy-group",
+   "email_protected": false
+  },
+  {
+   "no": 34,
+   "name": "Falcon Feed Holding",
+   "country": "Türkiye",
+   "hall": "Hall C",
+   "stand": "C-38",
+   "website": "https://www.falconfeedholding.com",
+   "email": "export@falconfeedholding.com",
+   "phone": "+90 559 530 7988",
+   "address": "218 Agri Park, Izmir",
+   "products": [
+    "Seeds",
+    "Spices & herbs",
+    "Veterinary products"
+   ],
+   "description": "Falcon Feed Holding supplies seeds and spices & herbs to growers and food producers. Visit us in Hall C, stand C-38.",
+   "slug": "falcon-feed-holding",
+   "email_protected": false
+  },
+  {
+   "no": 35,
+   "name": "Falcon Harvesters Industries",
+   "country": "Germany",
+   "hall": "Hall A",
+   "stand": "A-31",
+   "website": "https://www.falconharvestersindust.com",
+   "email": "sales@falconharvestersindust.com",
+   "phone": "",
+   "address": "192 Market Street, Hanover",
+   "products": [
+    "Animal feed",
+    "Fresh vegetables",
+    "Grains & pulses",
+    "Poultry equipment",
+    "Spices & herbs"
+   ],
+   "description": "Falcon Harvesters Industries supplies animal feed and fresh vegetables to growers and food producers. Visit us in Hall A, stand A-31.",
+   "slug": "falcon-harvesters-industries",
+   "email_protected": false
+  },
+  {
+   "no": 36,
+   "name": "Fresh Cold Chain Systems",
+   "country": "Egypt",
+   "hall": "Hall D",
+   "stand": "D-46",
+   "website": "https://www.freshcoldchainsystems.com",
+   "email": "info@freshcoldchainsystems.com",
+   "phone": "+20 280 167 4851",
+   "address": "36 Harbour Road, Cairo",
+   "products": [
+    "Cold storage",
+    "Dairy equipment",
+    "Greenhouses"
+   ],
+   "description": "Fresh Cold Chain Systems supplies cold storage and dairy equipment to growers and food producers. Visit us in Hall D, stand D-46.",
+   "slug": "fresh-cold-chain-systems",
+   "email_protected": false
+  },
+  {
+   "no": 37,
+   "name": "Fresh Dairy LLC",
+   "country": "Egypt",
+   "hall": "Hall C",
+   "stand": "C-51",
+   "website": "https://www.freshdairyllc.com",
+   "email": "contact@freshdairyllc.com",
+   "phone": "+20 710 226 3734",
+   "address": "220 Market Street, Cairo",
+   "products": [
+    "Cold storage",
+    "Poultry equipment",
+    "Spices & herbs"
+   ],
+   "description": "Fresh Dairy LLC supplies cold storage and poultry equipment to growers and food producers. Visit us in Hall C, stand C-51.",
+   "slug": "fresh-dairy-llc",
+   "email_protected": false
+  },
+  {
+   "no": 38,
+   "name": "Fresh Farms S.A.E.",
+   "country": "Kenya",
+   "hall": "Hall C",
+   "stand": "C-12",
+   "website": "https://www.freshfarmssae.com",
+   "email": "info@freshfarmssae.com",
+   "phone": "+254 558 480 9449",
+   "address": "205 Agri Park, Nairobi",
+   "products": [
+    "Agritech software",
+    "Crop protection"
+   ],
+   "description": "Fresh Farms S.A.E. supplies agritech software and crop protection to growers and food producers. Visit us in Hall C, stand C-12.",
+   "slug": "fresh-farms-s-a-e",
+   "email_protected": false
+  },
+  {
+   "no": 39,
+   "name": "Fresh Farms Systems",
+   "country": "Morocco",
+   "hall": "Hall C",
+   "stand": "C-19",
+   "website": "https://www.freshfarmssystems.com",
+   "email": "info@freshfarmssystems.com",
+   "phone": "+212 976 673 5142",
+   "address": "23 Harbour Road, Agadir",
+   "products": [
+    "Cold storage",
+    "Crop protection",
+    "Fresh vegetables",
+    "Spices & herbs"
+   ],
+   "description": "Fresh Farms Systems supplies cold storage and crop protection to growers and food producers. Visit us in Hall C, stand C-19.",
+   "slug": "fresh-farms-systems",
+   "email_protected": false
+  },
+  {
+   "no": 40,
+   "name": "Fresh Greenhouses Holding",
+   "country": "Morocco",
+   "hall": "Hall E",
+   "stand": "E-03",
+   "website": "https://www.freshgreenhousesholdin.com",
+   "email": "contact@freshgreenhousesholdin.com",
+   "phone": "+212 745 553 9607",
+   "address": "12 Market Street, Agadir",
+   "products": [
+    "Crop protection",
+    "Seeds"
+   ],
+   "description": "Fresh Greenhouses Holding supplies crop protection and seeds to growers and food producers. Visit us in Hall E, stand E-03.",
+   "slug": "fresh-greenhouses-holding",
+   "email_protected": false
+  },
+  {
+   "no": 41,
+   "name": "Fresh Harvesters Ltd",
+   "country": "Egypt",
+   "hall": "Hall B",
+   "stand": "B-31",
+   "website": "https://www.freshharvestersltd.com",
+   "email": "sales@freshharvestersltd.com",
+   "phone": "+20 824 366 5508",
+   "address": "235 Agri Park, Cairo",
+   "products": [
+    "Cold storage",
+    "Fresh fruits",
+    "Greenhouses",
+    "Poultry equipment",
+    "Veterinary products"
+   ],
+   "description": "Fresh Harvesters Ltd supplies cold storage and fresh fruits to growers and food producers. Visit us in Hall B, stand B-31.",
+   "slug": "fresh-harvesters-ltd",
+   "email_protected": false
+  },
+  {
+   "no": 42,
+   "name": "Fresh Poultry S.A.E.",
+   "country": "Egypt",
+   "hall": "Hall B",
+   "stand": "B-02",
+   "website": "https://www.freshpoultrysae.com",
+   "email": "export@freshpoultrysae.com",
+   "phone": "+20 529 977 9112",
+   "address": "3 Agri Park, Cairo",
+   "products": [
+    "Animal feed",
+    "Drones & sensors",
+    "Seeds"
+   ],
+   "description": "Fresh Poultry S.A.E. supplies animal feed and drones & sensors to growers and food producers. Visit us in Hall B, stand B-02.",
+   "slug": "fresh-poultry-s-a-e",
+   "email_protected": false
+  },
+  {
+   "no": 43,
+   "name": "Fresh Tractors Co.",
+   "country": "Tunisia",
+   "hall": "Hall A",
+   "stand": "A-49",
+   "website": "https://www.freshtractorsco.com",
+   "email": "contact@freshtractorsco.com",
+   "phone": "+216 746 604 1915",
+   "address": "30 Agri Park, Sfax",
+   "products": [
+    "Fertilizers",
+    "Packaging"
+   ],
+   "description": "Fresh Tractors Co. supplies fertilizers and packaging to growers and food producers. Visit us in Hall A, stand A-49.",
+   "slug": "fresh-tractors-co",
+   "email_protected": true
+  },
+  {
+   "no": 44,
+   "name": "Fruit & Veg Exporters Union",
+   "country": "Kenya",
+   "hall": "Hall D",
+   "stand": "D-39",
+   "website": "https://www.fruitvegexportersunion.com",
+   "email": "export@fruitvegexportersunion.com",
+   "phone": "+254 543 615 1699",
+   "address": "162 Industrial Zone, Nairobi",
+   "products": [
+    "Agritech software",
+    "Drones & sensors"
+   ],
+   "description": "Fruit & Veg Exporters Union supplies agritech software and drones & sensors to growers and food producers. Visit us in Hall D, stand D-39.",
+   "slug": "fruit-veg-exporters-union",
+   "email_protected": false
+  },
+  {
+   "no": 45,
+   "name": "Golden Feed Industries",
+   "country": "Egypt",
+   "hall": "Hall A",
+   "stand": "A-32",
+   "website": "https://www.goldenfeedindustries.com",
+   "email": "contact@goldenfeedindustries.com",
+   "phone": "+20 780 602 8390",
+   "address": "85 Agri Park, Cairo",
+   "products": [
+    "Dairy equipment",
+    "Water treatment"
+   ],
+   "description": "Golden Feed Industries supplies dairy equipment and water treatment to growers and food producers. Visit us in Hall A, stand A-32.",
+   "slug": "golden-feed-industries",
+   "email_protected": false
+  },
+  {
+   "no": 46,
+   "name": "Golden Feed LLC",
+   "country": "Egypt",
+   "hall": "Hall A",
+   "stand": "A-10",
+   "website": "https://www.goldenfeedllc.com",
+   "email": "contact@goldenfeedllc.com",
+   "phone": "+20 460 838 6309",
+   "address": "19 Market Street, Cairo",
+   "products": [
+    "Animal feed",
+    "Dairy equipment",
+    "Fertilizers",
+    "Fresh fruits",
+    "Packaging"
+   ],
+   "description": "Golden Feed LLC supplies animal feed and dairy equipment to growers and food producers. Visit us in Hall A, stand A-10.",
+   "slug": "golden-feed-llc",
+   "email_protected": false
+  },
+  {
+   "no": 47,
+   "name": "Golden Greenhouses Industries",
+   "country": "Morocco",
+   "hall": "Hall B",
+   "stand": "B-25",
+   "website": "https://www.goldengreenhousesindus.com",
+   "email": "sales@goldengreenhousesindus.com",
+   "phone": "+212 237 397 9843",
+   "address": "19 Industrial Zone, Agadir",
+   "products": [
+    "Agritech software",
+    "Cold storage",
+    "Fertilizers",
+    "Fresh vegetables",
+    "Greenhouses"
+   ],
+   "description": "",
+   "slug": "golden-greenhouses-industries",
+   "email_protected": false
+  },
+  {
+   "no": 48,
+   "name": "Golden Irrigation Co.",
+   "country": "Egypt",
+   "hall": "Hall E",
+   "stand": "E-09",
+   "website": "https://www.goldenirrigationco.com",
+   "email": "contact@goldenirrigationco.com",
+   "phone": "+20 726 139 6990",
+   "address": "66 Market Street, Cairo",
+   "products": [
+    "Fertilizers",
+    "Fresh fruits",
+    "Packaging",
+    "Spices & herbs",
+    "Tractors & machinery"
+   ],
+   "description": "Golden Irrigation Co. supplies fertilizers and fresh fruits to growers and food producers. Visit us in Hall E, stand E-09.",
+   "slug": "golden-irrigation-co",
+   "email_protected": false
+  },
+  {
+   "no": 49,
+   "name": "Golden Tractors International",
+   "country": "France",
+   "hall": "Hall A",
+   "stand": "A-17",
+   "website": "https://www.goldentractorsinternat.com",
+   "email": "",
+   "phone": "+33 467 157 3982",
+   "address": "243 Market Street, Lyon",
+   "products": [
+    "Fresh fruits",
+    "Grains & pulses"
+   ],
+   "description": "Golden Tractors International supplies fresh fruits and grains & pulses to growers and food producers. Visit us in Hall A, stand A-17.",
+   "slug": "golden-tractors-international",
+   "email_protected": false
+  },
+  {
+   "no": 50,
+   "name": "Harvest Agro Ltd",
+   "country": "Egypt",
+   "hall": "Hall C",
+   "stand": "C-42",
+   "website": "https://www.harvestagroltd.com",
+   "email": "contact@harvestagroltd.com",
+   "phone": "+20 830 532 8438",
+   "address": "88 Industrial Zone, Cairo",
+   "products": [
+    "Agritech software",
+    "Crop protection",
+    "Fertilizers",
+    "Greenhouses",
+    "Irrigation systems"
+   ],
+   "description": "Harvest Agro Ltd supplies agritech software and crop protection to growers and food producers. Visit us in Hall C, stand C-42.",
+   "slug": "harvest-agro-ltd",
+   "email_protected": false
+  },
+  {
+   "no": 51,
+   "name": "Harvest Farms International",
+   "country": "Türkiye",
+   "hall": "Hall D",
+   "stand": "D-50",
+   "website": "https://www.harvestfarmsinternatio.com",
+   "email": "sales@harvestfarmsinternatio.com",
+   "phone": "+90 997 381 8066",
+   "address": "27 Market Street, Izmir",
+   "products": [
+    "Fresh vegetables",
+    "Spices & herbs",
+    "Water treatment"
+   ],
+   "description": "Harvest Farms International supplies fresh vegetables and spices & herbs to growers and food producers. Visit us in Hall D, stand D-50.",
+   "slug": "harvest-farms-international",
+   "email_protected": false
+  },
+  {
+   "no": 52,
+   "name": "Harvest Fertilizers Group",
+   "country": "United Arab Emirates",
+   "hall": "Hall A",
+   "stand": "A-37",
+   "website": "https://www.harvestfertilizersgrou.com",
+   "email": "contact@harvestfertilizersgrou.com",
+   "phone": "+971 652 871 5281",
+   "address": "2 Agri Park, Dubai",
+   "products": [
+    "Cold storage",
+    "Dairy equipment",
+    "Fertilizers",
+    "Fresh vegetables",
+    "Water treatment"
+   ],
+   "description": "",
+   "slug": "harvest-fertilizers-group",
+   "email_protected": false
+  },
+  {
+   "no": 53,
+   "name": "Harvest Harvesters Holding",
+   "country": "Egypt",
+   "hall": "Hall C",
+   "stand": "C-45",
+   "website": "https://www.harvestharvestersholdi.com",
+   "email": "info@harvestharvestersholdi.com",
+   "phone": "+20 835 462 4318",
+   "address": "92 Agri Park, Cairo",
+   "products": [
+    "Greenhouses",
+    "Seeds"
+   ],
+   "description": "Harvest Harvesters Holding supplies greenhouses and seeds to growers and food producers. Visit us in Hall C, stand C-45.",
+   "slug": "harvest-harvesters-holding",
+   "email_protected": false
+  },
+  {
+   "no": 54,
+   "name": "Harvest Seeds International",
+   "country": "Tunisia",
+   "hall": "Hall B",
+   "stand": "B-05",
+   "website": "https://www.harvestseedsinternatio.com",
+   "email": "info@harvestseedsinternatio.com",
+   "phone": "",
+   "address": "240 Harbour Road, Sfax",
+   "products": [
+    "Agritech software",
+    "Cold storage",
+    "Grains & pulses",
+    "Seeds"
+   ],
+   "description": "Harvest Seeds International supplies agritech software and cold storage to growers and food producers. Visit us in Hall B, stand B-05.",
+   "slug": "harvest-seeds-international",
+   "email_protected": true
+  },
+  {
+   "no": 55,
+   "name": "Horizon Agritech Co.",
+   "country": "Greece",
+   "hall": "Hall D",
+   "stand": "D-49",
+   "website": "https://www.horizonagritechco.com",
+   "email": "sales@horizonagritechco.com",
+   "phone": "+30 767 394 8164",
+   "address": "152 Industrial Zone, Thessaloniki",
+   "products": [
+    "Agritech software",
+    "Fertilizers",
+    "Fresh fruits"
+   ],
+   "description": "Horizon Agritech Co. supplies agritech software and fertilizers to growers and food producers. Visit us in Hall D, stand D-49.",
+   "slug": "horizon-agritech-co",
+   "email_protected": false
+  },
+  {
+   "no": 56,
+   "name": "Horizon Cold Chain Trading",
+   "country": "United Arab Emirates",
+   "hall": "Hall C",
+   "stand": "C-26",
+   "website": "",
+   "email": "info@horizoncoldchaintradin.com",
+   "phone": "+971 372 326 5020",
+   "address": "31 Industrial Zone, Dubai",
+   "products": [
+    "Drones & sensors",
+    "Fresh fruits",
+    "Seeds",
+    "Veterinary products"
+   ],
+   "description": "Horizon Cold Chain Trading supplies drones & sensors and fresh fruits to growers and food producers. Visit us in Hall C, stand C-26.",
+   "slug": "horizon-cold-chain-trading",
+   "email_protected": false
+  },
+  {
+   "no": 57,
+   "name": "Horizon Irrigation Co.",
+   "country": "Greece",
+   "hall": "Hall A",
+   "stand": "A-50",
+   "website": "https://www.horizonirrigationco.com",
+   "email": "export@horizonirrigationco.com",
+   "phone": "+30 652 244 6309",
+   "address": "235 Market Street, Thessaloniki",
+   "products": [
+    "Dairy equipment",
+    "Poultry equipment",
+    "Spices & herbs",
+    "Veterinary products"
+   ],
+   "description": "Horizon Irrigation Co. supplies dairy equipment and poultry equipment to growers and food producers. Visit us in Hall A, stand A-50.",
+   "slug": "horizon-irrigation-co",
+   "email_protected": false
+  },
+  {
+   "no": 58,
+   "name": "Lotus Farms Industries",
+   "country": "Italy",
+   "hall": "Hall D",
+   "stand": "D-43",
+   "website": "https://www.lotusfarmsindustries.com",
+   "email": "sales@lotusfarmsindustries.com",
+   "phone": "+39 651 540 8572",
+   "address": "47 Harbour Road, Verona",
+   "products": [
+    "Animal feed",
+    "Fresh vegetables",
+    "Organic produce",
+    "Seeds"
+   ],
+   "description": "Lotus Farms Industries supplies animal feed and fresh vegetables to growers and food producers. Visit us in Hall D, stand D-43.",
+   "slug": "lotus-farms-industries",
+   "email_protected": false
+  },
+  {
+   "no": 59,
+   "name": "Lotus Greenhouses Group",
+   "country": "Egypt",
+   "hall": "Hall C",
+   "stand": "C-23",
+   "website": "https://www.lotusgreenhousesgroup.com",
+   "email": "contact@lotusgreenhousesgroup.com",
+   "phone": "+20 456 680 6568",
+   "address": "91 Harbour Road, Cairo",
+   "products": [
+    "Animal feed",
+    "Dairy equipment",
+    "Fresh vegetables",
+    "Greenhouses"
+   ],
+   "description": "Lotus Greenhouses Group supplies animal feed and dairy equipment to growers and food producers. Visit us in Hall C, stand C-23.",
+   "slug": "lotus-greenhouses-group",
+   "email_protected": false
+  },
+  {
+   "no": 60,
+   "name": "Lotus Poultry Systems",
+   "country": "Morocco",
+   "hall": "Hall B",
+   "stand": "B-34",
+   "website": "https://www.lotuspoultrysystems.com",
+   "email": "contact@lotuspoultrysystems.com",
+   "phone": "+212 480 436 6730",
+   "address": "105 Industrial Zone, Agadir",
+   "products": [
+    "Crop protection",
+    "Fresh fruits"
+   ],
+   "description": "Lotus Poultry Systems supplies crop protection and fresh fruits to growers and food producers. Visit us in Hall B, stand B-34.",
+   "slug": "lotus-poultry-systems",
+   "email_protected": false
+  },
+  {
+   "no": 61,
+   "name": "Lotus Tractors Holding",
+   "country": "Egypt",
+   "hall": "Hall E",
+   "stand": "E-35",
+   "website": "https://www.lotustractorsholding.com",
+   "email": "info@lotustractorsholding.com",
+   "phone": "+20 964 730 5058",
+   "address": "165 Harbour Road, Cairo",
+   "products": [
+    "Cold storage",
+    "Spices & herbs"
+   ],
+   "description": "Lotus Tractors Holding supplies cold storage and spices & herbs to growers and food producers. Visit us in Hall E, stand E-35.",
+   "slug": "lotus-tractors-holding",
+   "email_protected": false
+  },
+  {
+   "no": 62,
+   "name": "Meadow Agritech Group",
+   "country": "Morocco",
+   "hall": "Hall E",
+   "stand": "E-30",
+   "website": "https://www.meadowagritechgroup.com",
+   "email": "",
+   "phone": "+212 541 167 6405",
+   "address": "37 Industrial Zone, Agadir",
+   "products": [
+    "Agritech software",
+    "Poultry equipment",
+    "Seeds"
+   ],
+   "description": "Meadow Agritech Group supplies agritech software and poultry equipment to growers and food producers. Visit us in Hall E, stand E-30.",
+   "slug": "meadow-agritech-group",
+   "email_protected": false
+  },
+  {
+   "no": 63,
+   "name": "Meadow Fertilizers Co.",
+   "country": "Egypt",
+   "hall": "Hall D",
+   "stand": "D-25",
+   "website": "https://www.meadowfertilizersco.com",
+   "email": "sales@meadowfertilizersco.com",
+   "phone": "+20 586 120 7294",
+   "address": "71 Market Street, Cairo",
+   "products": [
+    "Grains & pulses",
+    "Greenhouses",
+    "Irrigation systems",
+    "Spices & herbs",
+    "Tractors & machinery"
+   ],
+   "description": "Meadow Fertilizers Co. supplies grains & pulses and greenhouses to growers and food producers. Visit us in Hall D, stand D-25.",
+   "slug": "meadow-fertilizers-co",
+   "email_protected": true
+  },
+  {
+   "no": 64,
+   "name": "Meadow Greenhouses Holding",
+   "country": "Saudi Arabia",
+   "hall": "Hall D",
+   "stand": "D-54",
+   "website": "https://www.meadowgreenhousesholdi.com",
+   "email": "sales@meadowgreenhousesholdi.com",
+   "phone": "+966 951 521 6393",
+   "address": "241 Industrial Zone, Riyadh",
+   "products": [
+    "Seeds",
+    "Veterinary products"
+   ],
+   "description": "Meadow Greenhouses Holding supplies seeds and veterinary products to growers and food producers. Visit us in Hall D, stand D-54.",
+   "slug": "meadow-greenhouses-holding",
+   "email_protected": false
+  },
+  {
+   "no": 65,
+   "name": "Meadow Tractors Group",
+   "country": "Egypt",
+   "hall": "Hall C",
+   "stand": "C-44",
+   "website": "https://www.meadowtractorsgroup.com",
+   "email": "export@meadowtractorsgroup.com",
+   "phone": "+20 434 899 5196",
+   "address": "",
+   "products": [
+    "Crop protection",
+    "Irrigation systems",
+    "Organic produce",
+    "Tractors & machinery",
+    "Veterinary products"
+   ],
+   "description": "Meadow Tractors Group supplies crop protection and irrigation systems to growers and food producers. Visit us in Hall C, stand C-44.",
+   "slug": "meadow-tractors-group",
+   "email_protected": false
+  },
+  {
+   "no": 66,
+   "name": "Müller Landtechnik GmbH",
+   "country": "Germany",
+   "hall": "Hall D",
+   "stand": "D-42",
+   "website": "https://www.mullerlandtechnik.com",
+   "email": "",
+   "phone": "+49 813 410 4148",
+   "address": "161 Agri Park, Hanover",
+   "products": [
+    "Dairy equipment",
+    "Water treatment"
+   ],
+   "description": "Müller Landtechnik GmbH supplies dairy equipment and water treatment to growers and food producers. Visit us in Hall D, stand D-42.",
+   "slug": "muller-landtechnik",
+   "email_protected": false
+  },
+  {
+   "no": 67,
+   "name": "Nile Fruits Co.",
+   "country": "Egypt",
+   "hall": "Hall D",
+   "stand": "D-60",
+   "website": "https://www.nilefruitsco.com",
+   "email": "sales@nilefruitsco.com",
+   "phone": "",
+   "address": "73 Harbour Road, Cairo",
+   "products": [
+    "Agritech software",
+    "Crop protection",
+    "Fresh fruits",
+    "Irrigation systems",
+    "Tractors & machinery"
+   ],
+   "description": "Nile Fruits Co. supplies agritech software and crop protection to growers and food producers. Visit us in Hall D, stand D-60.",
+   "slug": "nile-fruits-co",
+   "email_protected": false
+  },
+  {
+   "no": 68,
+   "name": "Nile Tractors Systems",
+   "country": "Egypt",
+   "hall": "Hall B",
+   "stand": "B-56",
+   "website": "https://www.niletractorssystems.com",
+   "email": "info@niletractorssystems.com",
+   "phone": "+20 351 906 3616",
+   "address": "",
+   "products": [
+    "Agritech software",
+    "Fertilizers"
+   ],
+   "description": "Nile Tractors Systems supplies agritech software and fertilizers to growers and food producers. Visit us in Hall B, stand B-56.",
+   "slug": "nile-tractors-systems",
+   "email_protected": false
+  },
+  {
+   "no": 69,
+   "name": "Oasis Cold Chain Systems",
+   "country": "Egypt",
+   "hall": "Hall D",
+   "stand": "D-33",
+   "website": "https://www.oasiscoldchainsystems.com",
+   "email": "info@oasiscoldchainsystems.com",
+   "phone": "+20 284 286 4128",
+   "address": "",
+   "products": [
+    "Agritech software",
+    "Cold storage",
+    "Dairy equipment",
+    "Tractors & machinery"
+   ],
+   "description": "Oasis Cold Chain Systems supplies agritech software and cold storage to growers and food producers. Visit us in Hall D, stand D-33.",
+   "slug": "oasis-cold-chain-systems",
+   "email_protected": false
+  },
+  {
+   "no": 70,
+   "name": "Oasis Farms Trading",
+   "country": "Greece",
+   "hall": "Hall B",
+   "stand": "B-16",
+   "website": "",
+   "email": "contact@oasisfarmstrading.com",
+   "phone": "",
+   "address": "245 Industrial Zone, Thessaloniki",
+   "products": [
+    "Crop protection",
+    "Dairy equipment"
+   ],
+   "description": "Oasis Farms Trading supplies crop protection and dairy equipment to growers and food producers. Visit us in Hall B, stand B-16.",
+   "slug": "oasis-farms-trading",
+   "email_protected": false
+  },
+  {
+   "no": 71,
+   "name": "Oasis Fruits Trading",
+   "country": "Egypt",
+   "hall": "Hall D",
+   "stand": "D-16",
+   "website": "https://www.oasisfruitstrading.com",
+   "email": "info@oasisfruitstrading.com",
+   "phone": "+20 738 645 9515",
+   "address": "221 Market Street, Cairo",
+   "products": [
+    "Agritech software",
+    "Animal feed",
+    "Cold storage",
+    "Drones & sensors",
+    "Packaging"
+   ],
+   "description": "Oasis Fruits Trading supplies agritech software and animal feed to growers and food producers. Visit us in Hall D, stand D-16.",
+   "slug": "oasis-fruits-trading",
+   "email_protected": false
+  },
+  {
+   "no": 72,
+   "name": "Oasis Irrigation Group",
+   "country": "Egypt",
+   "hall": "Hall B",
+   "stand": "B-24",
+   "website": "https://www.oasisirrigationgroup.com",
+   "email": "export@oasisirrigationgroup.com",
+   "phone": "+20 971 729 2862",
+   "address": "180 Harbour Road, Cairo",
+   "products": [
+    "Agritech software",
+    "Animal feed",
+    "Greenhouses",
+    "Packaging",
+    "Water treatment"
+   ],
+   "description": "Oasis Irrigation Group supplies agritech software and animal feed to growers and food producers. Visit us in Hall B, stand B-24.",
+   "slug": "oasis-irrigation-group",
+   "email_protected": false
+  },
+  {
+   "no": 73,
+   "name": "Oasis Spices LLC",
+   "country": "Egypt",
+   "hall": "Hall E",
+   "stand": "E-11",
+   "website": "https://www.oasisspicesllc.com",
+   "email": "sales@oasisspicesllc.com",
+   "phone": "+20 834 906 8719",
+   "address": "93 Market Street, Cairo",
+   "products": [
+    "Drones & sensors",
+    "Fertilizers",
+    "Packaging",
+    "Tractors & machinery"
+   ],
+   "description": "Oasis Spices LLC supplies drones & sensors and fertilizers to growers and food producers. Visit us in Hall E, stand E-11.",
+   "slug": "oasis-spices-llc",
+   "email_protected": false
+  },
+  {
+   "no": 74,
+   "name": "Oasis Tractors Systems",
+   "country": "Tunisia",
+   "hall": "Hall B",
+   "stand": "B-22",
+   "website": "",
+   "email": "export@oasistractorssystems.com",
+   "phone": "+216 620 364 4497",
+   "address": "95 Agri Park, Sfax",
+   "products": [
+    "Agritech software",
+    "Crop protection",
+    "Fertilizers"
+   ],
+   "description": "Oasis Tractors Systems supplies agritech software and crop protection to growers and food producers. Visit us in Hall B, stand B-22.",
+   "slug": "oasis-tractors-systems",
+   "email_protected": false
+  },
+  {
+   "no": 75,
+   "name": "Olive Agritech LLC",
+   "country": "Egypt",
+   "hall": "Hall B",
+   "stand": "B-19",
+   "website": "https://www.oliveagritechllc.com",
+   "email": "export@oliveagritechllc.com",
+   "phone": "+20 563 237 3471",
+   "address": "15 Harbour Road, Cairo",
+   "products": [
+    "Fresh fruits",
+    "Irrigation systems"
+   ],
+   "description": "Olive Agritech LLC supplies fresh fruits and irrigation systems to growers and food producers. Visit us in Hall B, stand B-19.",
+   "slug": "olive-agritech-llc",
+   "email_protected": false
+  },
+  {
+   "no": 76,
+   "name": "Olive Cold Chain S.A.E.",
+   "country": "Egypt",
+   "hall": "Hall C",
+   "stand": "C-11",
+   "website": "https://www.olivecoldchainsae.com",
+   "email": "info@olivecoldchainsae.com",
+   "phone": "+20 596 502 3359",
+   "address": "",
+   "products": [
+    "Cold storage",
+    "Grains & pulses",
+    "Packaging"
+   ],
+   "description": "Olive Cold Chain S.A.E. supplies cold storage and grains & pulses to growers and food producers. Visit us in Hall C, stand C-11.",
+   "slug": "olive-cold-chain-s-a-e",
+   "email_protected": false
+  },
+  {
+   "no": 77,
+   "name": "Olive Poultry LLC",
+   "country": "Türkiye",
+   "hall": "Hall D",
+   "stand": "D-37",
+   "website": "https://www.olivepoultryllc.com",
+   "email": "info@olivepoultryllc.com",
+   "phone": "+90 937 315 8452",
+   "address": "160 Agri Park, Izmir",
+   "products": [
+    "Packaging",
+    "Tractors & machinery"
+   ],
+   "description": "Olive Poultry LLC supplies packaging and tractors & machinery to growers and food producers. Visit us in Hall D, stand D-37.",
+   "slug": "olive-poultry-llc",
+   "email_protected": true
+  },
+  {
+   "no": 78,
+   "name": "Palm Agritech Holding",
+   "country": "Spain",
+   "hall": "Hall C",
+   "stand": "C-04",
+   "website": "https://www.palmagritechholding.com",
+   "email": "info@palmagritechholding.com",
+   "phone": "+34 899 807 7601",
+   "address": "21 Agri Park, Almería",
+   "products": [
+    "Fresh fruits",
+    "Seeds",
+    "Spices & herbs"
+   ],
+   "description": "Palm Agritech Holding supplies fresh fruits and seeds to growers and food producers. Visit us in Hall C, stand C-04.",
+   "slug": "palm-agritech-holding",
+   "email_protected": false
+  },
+  {
+   "no": 79,
+   "name": "Palm Farms Group",
+   "country": "Saudi Arabia",
+   "hall": "Hall B",
+   "stand": "B-60",
+   "website": "https://www.palmfarmsgroup.com",
+   "email": "",
+   "phone": "+966 413 446 3329",
+   "address": "17 Market Street, Riyadh",
+   "products": [
+    "Agritech software",
+    "Packaging"
+   ],
+   "description": "Palm Farms Group supplies agritech software and packaging to growers and food producers. Visit us in Hall B, stand B-60.",
+   "slug": "palm-farms-group",
+   "email_protected": false
+  },
+  {
+   "no": 80,
+   "name": "Palm Feed Trading",
+   "country": "Egypt",
+   "hall": "Hall B",
+   "stand": "B-29",
+   "website": "https://www.palmfeedtrading.com",
+   "email": "contact@palmfeedtrading.com",
+   "phone": "+20 446 977 9845",
+   "address": "",
+   "products": [
+    "Cold storage",
+    "Fertilizers",
+    "Fresh vegetables",
+    "Greenhouses",
+    "Irrigation systems"
+   ],
+   "description": "Palm Feed Trading supplies cold storage and fertilizers to growers and food producers. Visit us in Hall B, stand B-29.",
+   "slug": "palm-feed-trading",
+   "email_protected": false
+  },
+  {
+   "no": 81,
+   "name": "Palm Grains Industries",
+   "country": "France",
+   "hall": "Hall E",
+   "stand": "E-48",
+   "website": "https://www.palmgrainsindustries.com",
+   "email": "export@palmgrainsindustries.com",
+   "phone": "+33 645 740 8780",
+   "address": "231 Harbour Road, Lyon",
+   "products": [
+    "Drones & sensors",
+    "Fertilizers",
+    "Spices & herbs"
+   ],
+   "description": "",
+   "slug": "palm-grains-industries",
+   "email_protected": false
+  },
+  {
+   "no": 82,
+   "name": "Palm Harvesters S.A.E.",
+   "country": "Türkiye",
+   "hall": "Hall E",
+   "stand": "E-06",
+   "website": "https://www.palmharvesterssae.com",
+   "email": "info@palmharvesterssae.com",
+   "phone": "+90 463 534 1418",
+   "address": "43 Agri Park, Izmir",
+   "products": [
+    "Animal feed",
+    "Packaging",
+    "Tractors & machinery"
+   ],
+   "description": "",
+   "slug": "palm-harvesters-s-a-e",
+   "email_protected": false
+  },
+  {
+   "no": 83,
+   "name": "Palm Poultry Holding",
+   "country": "India",
+   "hall": "Hall E",
+   "stand": "E-12",
+   "website": "https://www.palmpoultryholding.com",
+   "email": "contact@palmpoultryholding.com",
+   "phone": "+91 453 675 1644",
+   "address": "89 Harbour Road, Pune",
+   "products": [
+    "Dairy equipment",
+    "Fertilizers",
+    "Seeds",
+    "Veterinary products",
+    "Water treatment"
+   ],
+   "description": "Palm Poultry Holding supplies dairy equipment and fertilizers to growers and food producers. Visit us in Hall E, stand E-12.",
+   "slug": "palm-poultry-holding",
+   "email_protected": false
+  },
+  {
+   "no": 84,
+   "name": "Palm Spices Co.",
+   "country": "France",
+   "hall": "Hall C",
+   "stand": "C-53",
+   "website": "https://www.palmspicesco.com",
+   "email": "sales@palmspicesco.com",
+   "phone": "+33 836 675 5365",
+   "address": "163 Agri Park, Lyon",
+   "products": [
+    "Animal feed",
+    "Cold storage",
+    "Poultry equipment"
+   ],
+   "description": "Palm Spices Co. supplies animal feed and cold storage to growers and food producers. Visit us in Hall C, stand C-53.",
+   "slug": "palm-spices-co",
+   "email_protected": false
+  },
+  {
+   "no": 85,
+   "name": "Palm Tractors Trading",
+   "country": "Greece",
+   "hall": "Hall C",
+   "stand": "C-55",
+   "website": "https://www.palmtractorstrading.com",
+   "email": "contact@palmtractorstrading.com",
+   "phone": "+30 534 833 2395",
+   "address": "169 Agri Park, Thessaloniki",
+   "products": [
+    "Animal feed",
+    "Crop protection",
+    "Fertilizers",
+    "Fresh vegetables",
+    "Greenhouses"
+   ],
+   "description": "Palm Tractors Trading supplies animal feed and crop protection to growers and food producers. Visit us in Hall C, stand C-55.",
+   "slug": "palm-tractors-trading",
+   "email_protected": false
+  },
+  {
+   "no": 86,
+   "name": "Pharaoh Agro Trading",
+   "country": "Italy",
+   "hall": "Hall D",
+   "stand": "D-41",
+   "website": "https://www.pharaohagrotrading.com",
+   "email": "info@pharaohagrotrading.com",
+   "phone": "+39 664 182 4388",
+   "address": "212 Harbour Road, Verona",
+   "products": [
+    "Animal feed",
+    "Dairy equipment",
+    "Fertilizers",
+    "Spices & herbs"
+   ],
+   "description": "Pharaoh Agro Trading supplies animal feed and dairy equipment to growers and food producers. Visit us in Hall D, stand D-41.",
+   "slug": "pharaoh-agro-trading",
+   "email_protected": false
+  },
+  {
+   "no": 87,
+   "name": "Pharaoh Dairy LLC",
+   "country": "Egypt",
+   "hall": "Hall C",
+   "stand": "C-49",
+   "website": "https://www.pharaohdairyllc.com",
+   "email": "info@pharaohdairyllc.com",
+   "phone": "+20 872 945 2036",
+   "address": "98 Industrial Zone, Cairo",
+   "products": [
+    "Fresh fruits",
+    "Organic produce"
+   ],
+   "description": "Pharaoh Dairy LLC supplies fresh fruits and organic produce to growers and food producers. Visit us in Hall C, stand C-49.",
+   "slug": "pharaoh-dairy-llc",
+   "email_protected": false
+  },
+  {
+   "no": 88,
+   "name": "Pharaoh Spices LLC",
+   "country": "Morocco",
+   "hall": "Hall C",
+   "stand": "C-56",
+   "website": "https://www.pharaohspicesllc.com",
+   "email": "info@pharaohspicesllc.com",
+   "phone": "+212 795 852 8565",
+   "address": "96 Industrial Zone, Agadir",
+   "products": [
+    "Cold storage",
+    "Crop protection",
+    "Fresh vegetables",
+    "Grains & pulses",
+    "Organic produce"
+   ],
+   "description": "Pharaoh Spices LLC supplies cold storage and crop protection to growers and food producers. Visit us in Hall C, stand C-56.",
+   "slug": "pharaoh-spices-llc",
+   "email_protected": false
+  },
+  {
+   "no": 89,
+   "name": "Prime Agro LLC",
+   "country": "Morocco",
+   "hall": "Hall B",
+   "stand": "B-15",
+   "website": "https://www.primeagrollc.com",
+   "email": "contact@primeagrollc.com",
+   "phone": "+212 637 542 5950",
+   "address": "35 Agri Park, Agadir",
+   "products": [
+    "Animal feed",
+    "Poultry equipment"
+   ],
+   "description": "Prime Agro LLC supplies animal feed and poultry equipment to growers and food producers. Visit us in Hall B, stand B-15.",
+   "slug": "prime-agro-llc",
+   "email_protected": false
+  },
+  {
+   "no": 90,
+   "name": "Prime Farms Industries",
+   "country": "France",
+   "hall": "Hall C",
+   "stand": "C-06",
+   "website": "https://www.primefarmsindustries.com",
+   "email": "info@primefarmsindustries.com",
+   "phone": "+33 287 452 9250",
+   "address": "32 Agri Park, Lyon",
+   "products": [
+    "Agritech software",
+    "Cold storage"
+   ],
+   "description": "Prime Farms Industries supplies agritech software and cold storage to growers and food producers. Visit us in Hall C, stand C-06.",
+   "slug": "prime-farms-industries",
+   "email_protected": true
+  },
+  {
+   "no": 91,
+   "name": "Pure Feed Ltd",
+   "country": "Türkiye",
+   "hall": "Hall A",
+   "stand": "A-30",
+   "website": "",
+   "email": "contact@purefeedltd.com",
+   "phone": "+90 386 443 8016",
+   "address": "90 Agri Park, Izmir",
+   "products": [
+    "Agritech software",
+    "Drones & sensors",
+    "Fresh vegetables",
+    "Greenhouses",
+    "Packaging"
+   ],
+   "description": "Pure Feed Ltd supplies agritech software and drones & sensors to growers and food producers. Visit us in Hall A, stand A-30.",
+   "slug": "pure-feed-ltd",
+   "email_protected": false
+  },
+  {
+   "no": 92,
+   "name": "Pure Greenhouses Group",
+   "country": "Germany",
+   "hall": "Hall E",
+   "stand": "E-49",
+   "website": "https://www.puregreenhousesgroup.com",
+   "email": "sales@puregreenhousesgroup.com",
+   "phone": "+49 717 911 8588",
+   "address": "28 Agri Park, Hanover",
+   "products": [
+    "Agritech software",
+    "Animal feed",
+    "Drones & sensors",
+    "Grains & pulses",
+    "Poultry equipment"
+   ],
+   "description": "Pure Greenhouses Group supplies agritech software and animal feed to growers and food producers. Visit us in Hall E, stand E-49.",
+   "slug": "pure-greenhouses-group",
+   "email_protected": false
+  },
+  {
+   "no": 93,
+   "name": "Pure Greenhouses Systems",
+   "country": "Kenya",
+   "hall": "Hall D",
+   "stand": "D-13",
+   "website": "",
+   "email": "info@puregreenhousessystems.com",
+   "phone": "+254 684 501 2144",
+   "address": "142 Market Street, Nairobi",
+   "products": [
+    "Cold storage",
+    "Poultry equipment"
+   ],
+   "description": "Pure Greenhouses Systems supplies cold storage and poultry equipment to growers and food producers. Visit us in Hall D, stand D-13.",
+   "slug": "pure-greenhouses-systems",
+   "email_protected": false
+  },
+  {
+   "no": 94,
+   "name": "Pure Organics Systems",
+   "country": "Egypt",
+   "hall": "Hall C",
+   "stand": "C-50",
+   "website": "https://www.pureorganicssystems.com",
+   "email": "info@pureorganicssystems.com",
+   "phone": "+20 578 442 6875",
+   "address": "11 Harbour Road, Cairo",
+   "products": [
+    "Animal feed",
+    "Dairy equipment",
+    "Organic produce"
+   ],
+   "description": "Pure Organics Systems supplies animal feed and dairy equipment to growers and food producers. Visit us in Hall C, stand C-50.",
+   "slug": "pure-organics-systems",
+   "email_protected": false
+  },
+  {
+   "no": 95,
+   "name": "Pure Packaging International",
+   "country": "Morocco",
+   "hall": "Hall C",
+   "stand": "C-58",
+   "website": "https://www.purepackaginginternati.com",
+   "email": "export@purepackaginginternati.com",
+   "phone": "+212 433 887 6250",
+   "address": "54 Agri Park, Agadir",
+   "products": [
+    "Agritech software",
+    "Fresh fruits",
+    "Organic produce",
+    "Poultry equipment",
+    "Tractors & machinery"
+   ],
+   "description": "Pure Packaging International supplies agritech software and fresh fruits to growers and food producers. Visit us in Hall C, stand C-58.",
+   "slug": "pure-packaging-international",
+   "email_protected": false
+  },
+  {
+   "no": 96,
+   "name": "Pure Spices Trading",
+   "country": "Netherlands",
+   "hall": "Hall A",
+   "stand": "A-43",
+   "website": "https://www.purespicestrading.com",
+   "email": "info@purespicestrading.com",
+   "phone": "+31 468 990 9211",
+   "address": "217 Harbour Road, Westland",
+   "products": [
+    "Drones & sensors",
+    "Fresh vegetables",
+    "Grains & pulses",
+    "Water treatment"
+   ],
+   "description": "Pure Spices Trading supplies drones & sensors and fresh vegetables to growers and food producers. Visit us in Hall A, stand A-43.",
+   "slug": "pure-spices-trading",
+   "email_protected": false
+  },
+  {
+   "no": 97,
+   "name": "Red Sea Dairy Ltd",
+   "country": "Egypt",
+   "hall": "Hall A",
+   "stand": "A-34",
+   "website": "https://www.redseadairyltd.com",
+   "email": "export@redseadairyltd.com",
+   "phone": "",
+   "address": "18 Harbour Road, Cairo",
+   "products": [
+    "Crop protection",
+    "Fertilizers",
+    "Fresh fruits",
+    "Greenhouses",
+    "Tractors & machinery"
+   ],
+   "description": "Red Sea Dairy Ltd supplies crop protection and fertilizers to growers and food producers. Visit us in Hall A, stand A-34.",
+   "slug": "red-sea-dairy-ltd",
+   "email_protected": false
+  },
+  {
+   "no": 98,
+   "name": "Red Sea Fertilizers Group",
+   "country": "Egypt",
+   "hall": "Hall B",
+   "stand": "B-45",
+   "website": "https://www.redseafertilizersgroup.com",
+   "email": "contact@redseafertilizersgroup.com",
+   "phone": "+20 265 660 2678",
+   "address": "135 Agri Park, Cairo",
+   "products": [
+    "Fresh vegetables",
+    "Grains & pulses",
+    "Spices & herbs"
+   ],
+   "description": "Red Sea Fertilizers Group supplies fresh vegetables and grains & pulses to growers and food producers. Visit us in Hall B, stand B-45.",
+   "slug": "red-sea-fertilizers-group",
+   "email_protected": false
+  },
+  {
+   "no": 99,
+   "name": "Red Sea Tractors Ltd",
+   "country": "Türkiye",
+   "hall": "Hall D",
+   "stand": "D-48",
+   "website": "https://www.redseatractorsltd.com",
+   "email": "export@redseatractorsltd.com",
+   "phone": "+90 371 861 6003",
+   "address": "",
+   "products": [
+    "Agritech software",
+    "Fresh vegetables",
+    "Veterinary products"
+   ],
+   "description": "Red Sea Tractors Ltd supplies agritech software and fresh vegetables to growers and food producers. Visit us in Hall D, stand D-48.",
+   "slug": "red-sea-tractors-ltd",
+   "email_protected": false
+  },
+  {
+   "no": 100,
+   "name": "River Agro Co.",
+   "country": "Egypt",
+   "hall": "Hall E",
+   "stand": "E-33",
+   "website": "https://www.riveragroco.com",
+   "email": "info@riveragroco.com",
+   "phone": "+20 998 824 3720",
+   "address": "61 Market Street, Cairo",
+   "products": [
+    "Agritech software",
+    "Fresh fruits",
+    "Packaging"
+   ],
+   "description": "River Agro Co. supplies agritech software and fresh fruits to growers and food producers. Visit us in Hall E, stand E-33.",
+   "slug": "river-agro-co",
+   "email_protected": false
+  },
+  {
+   "no": 101,
+   "name": "River Agro Holding",
+   "country": "India",
+   "hall": "Hall D",
+   "stand": "D-38",
+   "website": "https://www.riveragroholding.com",
+   "email": "sales@riveragroholding.com",
+   "phone": "+91 940 513 3701",
+   "address": "28 Harbour Road, Pune",
+   "products": [
+    "Cold storage",
+    "Poultry equipment"
+   ],
+   "description": "River Agro Holding supplies cold storage and poultry equipment to growers and food producers. Visit us in Hall D, stand D-38.",
+   "slug": "river-agro-holding",
+   "email_protected": false
+  },
+  {
+   "no": 102,
+   "name": "River Feed Systems",
+   "country": "Egypt",
+   "hall": "Hall B",
+   "stand": "B-28",
+   "website": "https://www.riverfeedsystems.com",
+   "email": "sales@riverfeedsystems.com",
+   "phone": "+20 665 928 6670",
+   "address": "53 Market Street, Cairo",
+   "products": [
+    "Drones & sensors",
+    "Fertilizers",
+    "Fresh vegetables",
+    "Veterinary products"
+   ],
+   "description": "River Feed Systems supplies drones & sensors and fertilizers to growers and food producers. Visit us in Hall B, stand B-28.",
+   "slug": "river-feed-systems",
+   "email_protected": false
+  },
+  {
+   "no": 103,
+   "name": "River Harvesters Group",
+   "country": "Tunisia",
+   "hall": "Hall D",
+   "stand": "D-10",
+   "website": "https://www.riverharvestersgroup.com",
+   "email": "info@riverharvestersgroup.com",
+   "phone": "+216 595 687 4735",
+   "address": "103 Market Street, Sfax",
+   "products": [
+    "Agritech software",
+    "Grains & pulses",
+    "Packaging",
+    "Poultry equipment",
+    "Seeds"
+   ],
+   "description": "River Harvesters Group supplies agritech software and grains & pulses to growers and food producers. Visit us in Hall D, stand D-10.",
+   "slug": "river-harvesters-group",
+   "email_protected": false
+  },
+  {
+   "no": 104,
+   "name": "Royal Agritech Holding",
+   "country": "Germany",
+   "hall": "Hall B",
+   "stand": "B-50",
+   "website": "https://www.royalagritechholding.com",
+   "email": "info@royalagritechholding.com",
+   "phone": "+49 495 374 3985",
+   "address": "134 Harbour Road, Hanover",
+   "products": [
+    "Drones & sensors",
+    "Seeds"
+   ],
+   "description": "Royal Agritech Holding supplies drones & sensors and seeds to growers and food producers. Visit us in Hall B, stand B-50.",
+   "slug": "royal-agritech-holding",
+   "email_protected": false
+  },
+  {
+   "no": 105,
+   "name": "Royal Dairy Industries",
+   "country": "Germany",
+   "hall": "Hall C",
+   "stand": "C-18",
+   "website": "https://www.royaldairyindustries.com",
+   "email": "contact@royaldairyindustries.com",
+   "phone": "",
+   "address": "23 Market Street, Hanover",
+   "products": [
+    "Animal feed",
+    "Fertilizers",
+    "Irrigation systems",
+    "Poultry equipment"
+   ],
+   "description": "Royal Dairy Industries supplies animal feed and fertilizers to growers and food producers. Visit us in Hall C, stand C-18.",
+   "slug": "royal-dairy-industries",
+   "email_protected": true
+  },
+  {
+   "no": 106,
+   "name": "Royal Feed Holding",
+   "country": "Saudi Arabia",
+   "hall": "Hall C",
+   "stand": "C-17",
+   "website": "https://www.royalfeedholding.com",
+   "email": "info@royalfeedholding.com",
+   "phone": "+966 735 876 2563",
+   "address": "70 Harbour Road, Riyadh",
+   "products": [
+    "Fertilizers",
+    "Grains & pulses",
+    "Greenhouses",
+    "Spices & herbs"
+   ],
+   "description": "Royal Feed Holding supplies fertilizers and grains & pulses to growers and food producers. Visit us in Hall C, stand C-17.",
+   "slug": "royal-feed-holding",
+   "email_protected": false
+  },
+  {
+   "no": 107,
+   "name": "Royal Fruits Ltd",
+   "country": "Egypt",
+   "hall": "Hall A",
+   "stand": "A-44",
+   "website": "https://www.royalfruitsltd.com",
+   "email": "sales@royalfruitsltd.com",
+   "phone": "+20 425 731 9149",
+   "address": "45 Industrial Zone, Cairo",
+   "products": [
+    "Agritech software",
+    "Cold storage",
+    "Fertilizers",
+    "Fresh fruits"
+   ],
+   "description": "Royal Fruits Ltd supplies agritech software and cold storage to growers and food producers. Visit us in Hall A, stand A-44.",
+   "slug": "royal-fruits-ltd",
+   "email_protected": false
+  },
+  {
+   "no": 108,
+   "name": "Royal Fruits Systems",
+   "country": "Türkiye",
+   "hall": "Hall E",
+   "stand": "E-51",
+   "website": "https://www.royalfruitssystems.com",
+   "email": "contact@royalfruitssystems.com",
+   "phone": "+90 674 127 7106",
+   "address": "133 Market Street, Izmir",
+   "products": [
+    "Animal feed",
+    "Drones & sensors",
+    "Packaging",
+    "Poultry equipment",
+    "Spices & herbs"
+   ],
+   "description": "Royal Fruits Systems supplies animal feed and drones & sensors to growers and food producers. Visit us in Hall E, stand E-51.",
+   "slug": "royal-fruits-systems",
+   "email_protected": false
+  },
+  {
+   "no": 109,
+   "name": "Royal Harvesters Co.",
+   "country": "Greece",
+   "hall": "Hall A",
+   "stand": "A-55",
+   "website": "https://www.royalharvestersco.com",
+   "email": "contact@royalharvestersco.com",
+   "phone": "+30 238 177 3317",
+   "address": "228 Industrial Zone, Thessaloniki",
+   "products": [
+    "Greenhouses",
+    "Tractors & machinery",
+    "Water treatment"
+   ],
+   "description": "",
+   "slug": "royal-harvesters-co",
+   "email_protected": false
+  },
+  {
+   "no": 110,
+   "name": "Royal Tractors Industries",
+   "country": "Greece",
+   "hall": "Hall B",
+   "stand": "B-27",
+   "website": "https://www.royaltractorsindustrie.com",
+   "email": "sales@royaltractorsindustrie.com",
+   "phone": "+30 533 412 2130",
+   "address": "163 Market Street, Thessaloniki",
+   "products": [
+    "Fresh fruits",
+    "Irrigation systems",
+    "Veterinary products"
+   ],
+   "description": "Royal Tractors Industries supplies fresh fruits and irrigation systems to growers and food producers. Visit us in Hall B, stand B-27.",
+   "slug": "royal-tractors-industries",
+   "email_protected": true
+  },
+  {
+   "no": 111,
+   "name": "Sahara Cold Chain Holding",
+   "country": "Morocco",
+   "hall": "Hall D",
+   "stand": "D-15",
+   "website": "https://www.saharacoldchainholding.com",
+   "email": "contact@saharacoldchainholding.com",
+   "phone": "+212 927 762 3944",
+   "address": "68 Harbour Road, Agadir",
+   "products": [
+    "Agritech software",
+    "Dairy equipment",
+    "Drones & sensors",
+    "Organic produce",
+    "Packaging"
+   ],
+   "description": "Sahara Cold Chain Holding supplies agritech software and dairy equipment to growers and food producers. Visit us in Hall D, stand D-15.",
+   "slug": "sahara-cold-chain-holding",
+   "email_protected": true
+  },
+  {
+   "no": 112,
+   "name": "Sahara Cold Chain Industries",
+   "country": "Greece",
+   "hall": "Hall A",
+   "stand": "A-41",
+   "website": "https://www.saharacoldchainindustr.com",
+   "email": "export@saharacoldchainindustr.com",
+   "phone": "+30 461 999 9871",
+   "address": "151 Market Street, Thessaloniki",
+   "products": [
+    "Drones & sensors",
+    "Grains & pulses",
+    "Tractors & machinery",
+    "Water treatment"
+   ],
+   "description": "Sahara Cold Chain Industries supplies drones & sensors and grains & pulses to growers and food producers. Visit us in Hall A, stand A-41.",
+   "slug": "sahara-cold-chain-industries",
+   "email_protected": false
+  },
+  {
+   "no": 113,
+   "name": "Sahara Cold Chain Systems",
+   "country": "Kenya",
+   "hall": "Hall A",
+   "stand": "A-02",
+   "website": "https://www.saharacoldchainsystems.com",
+   "email": "contact@saharacoldchainsystems.com",
+   "phone": "+254 728 312 1455",
+   "address": "85 Harbour Road, Nairobi",
+   "products": [
+    "Fertilizers",
+    "Grains & pulses",
+    "Organic produce",
+    "Veterinary products"
+   ],
+   "description": "Sahara Cold Chain Systems supplies fertilizers and grains & pulses to growers and food producers. Visit us in Hall A, stand A-02.",
+   "slug": "sahara-cold-chain-systems",
+   "email_protected": false
+  },
+  {
+   "no": 114,
+   "name": "Sahara Dairy Trading",
+   "country": "Morocco",
+   "hall": "Hall B",
+   "stand": "B-53",
+   "website": "https://www.saharadairytrading.com",
+   "email": "sales@saharadairytrading.com",
+   "phone": "+212 823 624 1182",
+   "address": "218 Harbour Road, Agadir",
+   "products": [
+    "Cold storage",
+    "Dairy equipment",
+    "Water treatment"
+   ],
+   "description": "Sahara Dairy Trading supplies cold storage and dairy equipment to growers and food producers. Visit us in Hall B, stand B-53.",
+   "slug": "sahara-dairy-trading",
+   "email_protected": false
+  },
+  {
+   "no": 115,
+   "name": "Sahara Fruits Holding",
+   "country": "Italy",
+   "hall": "Hall E",
+   "stand": "E-56",
+   "website": "https://www.saharafruitsholding.com",
+   "email": "contact@saharafruitsholding.com",
+   "phone": "+39 640 400 9540",
+   "address": "67 Industrial Zone, Verona",
+   "products": [
+    "Agritech software",
+    "Crop protection"
+   ],
+   "description": "Sahara Fruits Holding supplies agritech software and crop protection to growers and food producers. Visit us in Hall E, stand E-56.",
+   "slug": "sahara-fruits-holding",
+   "email_protected": false
+  },
+  {
+   "no": 116,
+   "name": "Sahara Fruits Trading",
+   "country": "Egypt",
+   "hall": "Hall C",
+   "stand": "C-46",
+   "website": "https://www.saharafruitstrading.com",
+   "email": "sales@saharafruitstrading.com",
+   "phone": "+20 470 709 7208",
+   "address": "186 Agri Park, Cairo",
+   "products": [
+    "Agritech software",
+    "Spices & herbs"
+   ],
+   "description": "Sahara Fruits Trading supplies agritech software and spices & herbs to growers and food producers. Visit us in Hall C, stand C-46.",
+   "slug": "sahara-fruits-trading",
+   "email_protected": false
+  },
+  {
+   "no": 117,
+   "name": "Sahara Harvesters Industries",
+   "country": "Italy",
+   "hall": "Hall A",
+   "stand": "A-04",
+   "website": "https://www.saharaharvestersindust.com",
+   "email": "export@saharaharvestersindust.com",
+   "phone": "+39 743 754 8571",
+   "address": "139 Harbour Road, Verona",
+   "products": [
+    "Drones & sensors",
+    "Fresh vegetables"
+   ],
+   "description": "",
+   "slug": "sahara-harvesters-industries",
+   "email_protected": true
+  },
+  {
+   "no": 118,
+   "name": "Silver Cold Chain S.A.E.",
+   "country": "Egypt",
+   "hall": "Hall C",
+   "stand": "C-35",
+   "website": "",
+   "email": "contact@silvercoldchainsae.com",
+   "phone": "+20 355 642 9652",
+   "address": "237 Harbour Road, Cairo",
+   "products": [
+    "Crop protection",
+    "Fertilizers",
+    "Fresh fruits",
+    "Grains & pulses",
+    "Packaging"
+   ],
+   "description": "Silver Cold Chain S.A.E. supplies crop protection and fertilizers to growers and food producers. Visit us in Hall C, stand C-35.",
+   "slug": "silver-cold-chain-s-a-e",
+   "email_protected": false
+  },
+  {
+   "no": 119,
+   "name": "Silver Spices Co.",
+   "country": "France",
+   "hall": "Hall B",
+   "stand": "B-37",
+   "website": "https://www.silverspicesco.com",
+   "email": "info@silverspicesco.com",
+   "phone": "+33 914 677 3786",
+   "address": "131 Market Street, Lyon",
+   "products": [
+    "Dairy equipment",
+    "Fresh vegetables",
+    "Poultry equipment",
+    "Tractors & machinery",
+    "Veterinary products"
+   ],
+   "description": "Silver Spices Co. supplies dairy equipment and fresh vegetables to growers and food producers. Visit us in Hall B, stand B-37.",
+   "slug": "silver-spices-co",
+   "email_protected": false
+  },
+  {
+   "no": 120,
+   "name": "Silver Tractors Industries",
+   "country": "Egypt",
+   "hall": "Hall D",
+   "stand": "D-55",
+   "website": "https://www.silvertractorsindustri.com",
+   "email": "sales@silvertractorsindustri.com",
+   "phone": "+20 270 340 5084",
+   "address": "19 Market Street, Cairo",
+   "products": [
+    "Dairy equipment",
+    "Fresh vegetables"
+   ],
+   "description": "Silver Tractors Industries supplies dairy equipment and fresh vegetables to growers and food producers. Visit us in Hall D, stand D-55.",
+   "slug": "silver-tractors-industries",
+   "email_protected": false
+  },
+  {
+   "no": 121,
+   "name": "Silver Tractors International",
+   "country": "Türkiye",
+   "hall": "Hall A",
+   "stand": "A-05",
+   "website": "https://www.silvertractorsinternat.com",
+   "email": "contact@silvertractorsinternat.com",
+   "phone": "+90 387 775 6959",
+   "address": "182 Market Street, Izmir",
+   "products": [
+    "Greenhouses",
+    "Spices & herbs",
+    "Veterinary products"
+   ],
+   "description": "Silver Tractors International supplies greenhouses and spices & herbs to growers and food producers. Visit us in Hall A, stand A-05.",
+   "slug": "silver-tractors-international",
+   "email_protected": false
+  },
+  {
+   "no": 122,
+   "name": "Société Laitière du Sud",
+   "country": "Morocco",
+   "hall": "Hall A",
+   "stand": "A-11",
+   "website": "https://www.societelaitieredusud.com",
+   "email": "contact@societelaitieredusud.com",
+   "phone": "+212 377 184 6719",
+   "address": "211 Market Street, Agadir",
+   "products": [
+    "Dairy equipment",
+    "Organic produce",
+    "Packaging",
+    "Poultry equipment",
+    "Spices & herbs"
+   ],
+   "description": "Société Laitière du Sud supplies dairy equipment and organic produce to growers and food producers. Visit us in Hall A, stand A-11.",
+   "slug": "societe-laitiere-du-sud",
+   "email_protected": false
+  },
+  {
+   "no": 123,
+   "name": "Star Dairy S.A.E.",
+   "country": "India",
+   "hall": "Hall A",
+   "stand": "A-60",
+   "website": "",
+   "email": "sales@stardairysae.com",
+   "phone": "+91 555 181 9880",
+   "address": "207 Harbour Road, Pune",
+   "products": [
+    "Animal feed",
+    "Crop protection",
+    "Organic produce",
+    "Packaging",
+    "Seeds"
+   ],
+   "description": "Star Dairy S.A.E. supplies animal feed and crop protection to growers and food producers. Visit us in Hall A, stand A-60.",
+   "slug": "star-dairy-s-a-e",
+   "email_protected": false
+  },
+  {
+   "no": 124,
+   "name": "Star Organics International",
+   "country": "Morocco",
+   "hall": "Hall B",
+   "stand": "B-13",
+   "website": "https://www.starorganicsinternatio.com",
+   "email": "contact@starorganicsinternatio.com",
+   "phone": "",
+   "address": "208 Agri Park, Agadir",
+   "products": [
+    "Grains & pulses",
+    "Irrigation systems"
+   ],
+   "description": "Star Organics International supplies grains & pulses and irrigation systems to growers and food producers. Visit us in Hall B, stand B-13.",
+   "slug": "star-organics-international",
+   "email_protected": true
+  },
+  {
+   "no": 125,
+   "name": "Summit Dairy Systems",
+   "country": "Saudi Arabia",
+   "hall": "Hall C",
+   "stand": "C-15",
+   "website": "https://www.summitdairysystems.com",
+   "email": "info@summitdairysystems.com",
+   "phone": "",
+   "address": "157 Industrial Zone, Riyadh",
+   "products": [
+    "Fresh fruits",
+    "Veterinary products"
+   ],
+   "description": "Summit Dairy Systems supplies fresh fruits and veterinary products to growers and food producers. Visit us in Hall C, stand C-15.",
+   "slug": "summit-dairy-systems",
+   "email_protected": false
+  },
+  {
+   "no": 126,
+   "name": "Summit Harvesters Holding",
+   "country": "China",
+   "hall": "Hall B",
+   "stand": "B-07",
+   "website": "https://www.summitharvestersholdin.com",
+   "email": "export@summitharvestersholdin.com",
+   "phone": "+86 325 681 5291",
+   "address": "52 Industrial Zone, Shouguang",
+   "products": [
+    "Fresh vegetables",
+    "Water treatment"
+   ],
+   "description": "Summit Harvesters Holding supplies fresh vegetables and water treatment to growers and food producers. Visit us in Hall B, stand B-07.",
+   "slug": "summit-harvesters-holding",
+   "email_protected": false
+  },
+  {
+   "no": 127,
+   "name": "Sun Cold Chain Industries",
+   "country": "Türkiye",
+   "hall": "Hall B",
+   "stand": "B-06",
+   "website": "https://www.suncoldchainindustries.com",
+   "email": "sales@suncoldchainindustries.com",
+   "phone": "+90 786 411 4720",
+   "address": "190 Agri Park, Izmir",
+   "products": [
+    "Organic produce",
+    "Veterinary products"
+   ],
+   "description": "Sun Cold Chain Industries supplies organic produce and veterinary products to growers and food producers. Visit us in Hall B, stand B-06.",
+   "slug": "sun-cold-chain-industries",
+   "email_protected": false
+  },
+  {
+   "no": 128,
+   "name": "Sun Greenhouses Group",
+   "country": "Egypt",
+   "hall": "Hall B",
+   "stand": "B-59",
+   "website": "https://www.sungreenhousesgroup.com",
+   "email": "sales@sungreenhousesgroup.com",
+   "phone": "+20 384 330 2221",
+   "address": "110 Industrial Zone, Cairo",
+   "products": [
+    "Dairy equipment",
+    "Veterinary products"
+   ],
+   "description": "Sun Greenhouses Group supplies dairy equipment and veterinary products to growers and food producers. Visit us in Hall B, stand B-59.",
+   "slug": "sun-greenhouses-group",
+   "email_protected": false
+  },
+  {
+   "no": 129,
+   "name": "Sun Harvesters LLC",
+   "country": "Egypt",
+   "hall": "Hall C",
+   "stand": "C-34",
+   "website": "https://www.sunharvestersllc.com",
+   "email": "sales@sunharvestersllc.com",
+   "phone": "+20 835 587 9697",
+   "address": "63 Industrial Zone, Cairo",
+   "products": [
+    "Cold storage",
+    "Poultry equipment",
+    "Veterinary products"
+   ],
+   "description": "Sun Harvesters LLC supplies cold storage and poultry equipment to growers and food producers. Visit us in Hall C, stand C-34.",
+   "slug": "sun-harvesters-llc",
+   "email_protected": false
+  },
+  {
+   "no": 130,
+   "name": "Sun Harvesters Systems",
+   "country": "India",
+   "hall": "Hall B",
+   "stand": "B-43",
+   "website": "https://www.sunharvesterssystems.com",
+   "email": "sales@sunharvesterssystems.com",
+   "phone": "+91 548 128 5148",
+   "address": "",
+   "products": [
+    "Irrigation systems",
+    "Packaging"
+   ],
+   "description": "Sun Harvesters Systems supplies irrigation systems and packaging to growers and food producers. Visit us in Hall B, stand B-43.",
+   "slug": "sun-harvesters-systems",
+   "email_protected": false
+  },
+  {
+   "no": 131,
+   "name": "Sun Organics Holding",
+   "country": "Egypt",
+   "hall": "Hall B",
+   "stand": "B-55",
+   "website": "https://www.sunorganicsholding.com",
+   "email": "export@sunorganicsholding.com",
+   "phone": "+20 565 722 1156",
+   "address": "239 Industrial Zone, Cairo",
+   "products": [
+    "Fresh fruits",
+    "Grains & pulses"
+   ],
+   "description": "Sun Organics Holding supplies fresh fruits and grains & pulses to growers and food producers. Visit us in Hall B, stand B-55.",
+   "slug": "sun-organics-holding",
+   "email_protected": false
+  },
+  {
+   "no": 132,
+   "name": "Sun Packaging International",
+   "country": "Nigeria",
+   "hall": "Hall E",
+   "stand": "E-32",
+   "website": "https://www.sunpackaginginternatio.com",
+   "email": "info@sunpackaginginternatio.com",
+   "phone": "+234 852 867 6001",
+   "address": "89 Harbour Road, Lagos",
+   "products": [
+    "Cold storage",
+    "Fresh fruits",
+    "Grains & pulses",
+    "Organic produce",
+    "Poultry equipment"
+   ],
+   "description": "Sun Packaging International supplies cold storage and fresh fruits to growers and food producers. Visit us in Hall E, stand E-32.",
+   "slug": "sun-packaging-international",
+   "email_protected": false
+  },
+  {
+   "no": 133,
+   "name": "Sun Packaging Trading",
+   "country": "Türkiye",
+   "hall": "Hall A",
+   "stand": "A-56",
+   "website": "https://www.sunpackagingtrading.com",
+   "email": "export@sunpackagingtrading.com",
+   "phone": "+90 415 789 6436",
+   "address": "193 Industrial Zone, Izmir",
+   "products": [
+    "Agritech software",
+    "Organic produce"
+   ],
+   "description": "Sun Packaging Trading supplies agritech software and organic produce to growers and food producers. Visit us in Hall A, stand A-56.",
+   "slug": "sun-packaging-trading",
+   "email_protected": false
+  },
+  {
+   "no": 134,
+   "name": "Unity Feed International",
+   "country": "Egypt",
+   "hall": "Hall E",
+   "stand": "E-08",
+   "website": "https://www.unityfeedinternational.com",
+   "email": "info@unityfeedinternational.com",
+   "phone": "+20 314 218 1755",
+   "address": "166 Agri Park, Cairo",
+   "products": [
+    "Animal feed",
+    "Grains & pulses",
+    "Irrigation systems",
+    "Organic produce",
+    "Seeds"
+   ],
+   "description": "Unity Feed International supplies animal feed and grains & pulses to growers and food producers. Visit us in Hall E, stand E-08.",
+   "slug": "unity-feed-international",
+   "email_protected": false
+  },
+  {
+   "no": 135,
+   "name": "Unity Fruits Ltd",
+   "country": "Germany",
+   "hall": "Hall D",
+   "stand": "D-34",
+   "website": "https://www.unityfruitsltd.com",
+   "email": "info@unityfruitsltd.com",
+   "phone": "+49 631 382 3566",
+   "address": "136 Harbour Road, Hanover",
+   "products": [
+    "Fertilizers",
+    "Fresh vegetables"
+   ],
+   "description": "Unity Fruits Ltd supplies fertilizers and fresh vegetables to growers and food producers. Visit us in Hall D, stand D-34.",
+   "slug": "unity-fruits-ltd",
+   "email_protected": false
+  },
+  {
+   "no": 136,
+   "name": "Unity Poultry International",
+   "country": "France",
+   "hall": "Hall C",
+   "stand": "C-41",
+   "website": "https://www.unitypoultryinternatio.com",
+   "email": "info@unitypoultryinternatio.com",
+   "phone": "+33 369 233 9151",
+   "address": "38 Market Street, Lyon",
+   "products": [
+    "Dairy equipment",
+    "Packaging"
+   ],
+   "description": "Unity Poultry International supplies dairy equipment and packaging to growers and food producers. Visit us in Hall C, stand C-41.",
+   "slug": "unity-poultry-international",
+   "email_protected": false
+  },
+  {
+   "no": 137,
+   "name": "شركة النيل للأغذية",
+   "country": "Egypt",
+   "hall": "Hall E",
+   "stand": "E-57",
+   "website": "https://www.nilefoodcompany.com",
+   "email": "contact@nilefoodcompany.com",
+   "phone": "+20 577 808 6495",
+   "address": "209 Agri Park, Cairo",
+   "products": [
+    "Animal feed",
+    "Cold storage",
+    "Crop protection"
+   ],
+   "description": "شركة النيل للأغذية supplies animal feed and cold storage to growers and food producers. Visit us in Hall E, stand E-57.",
+   "slug": "nile-food-company",
+   "email_protected": false
+  }
+ ]
+}
