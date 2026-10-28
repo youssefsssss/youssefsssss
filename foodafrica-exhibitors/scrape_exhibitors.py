@@ -12,6 +12,7 @@ import collections
 import datetime
 import re
 import sys
+from urllib.parse import urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -25,7 +26,12 @@ PAGE_SIZE = 20  # DataTables "iDisplayLength" on the site
 USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 # "Hall 4/ F03", "Hall 5 / F03", "Hall2 / -" and the typo "Hal l2/ F71" all occur on the site.
 HALL_RE = re.compile(r"^H\s*a\s*l\s*l?\s*(\d+)\s*/\s*(.*)$", re.IGNORECASE)
+WELL_FORMED_HALL_RE = re.compile(r"^Hall\s*\d+\s*/", re.IGNORECASE)
 TEST_ENTRY_RE = re.compile(r"^IFP Test\b", re.IGNORECASE)  # IFP is the organizer
+# Direction marks, zero-width spaces and BOMs are invisible in Excel but break lookups and filters.
+INVISIBLE_RE = re.compile("[\u200b\u200e\u200f\u202a-\u202e\u2066-\u2069\ufeff]")
+TAG_LIMIT = 240  # free-text tags stop at this length on the site itself
+LINK_FONT = Font(color="0563C1", underline="single")
 
 COLUMNS = [
     ("No.", 7),
@@ -43,8 +49,8 @@ COLUMNS = [
 
 
 def clean(text):
-    # Collapse whitespace the way a browser displays it.
-    return re.sub(r"\s+", " ", text or "").strip()
+    # Drop invisible marks and collapse whitespace (non-breaking spaces included) to single spaces.
+    return re.sub(r"\s+", " ", INVISIBLE_RE.sub("", text or "")).strip()
 
 
 def badges(node):
@@ -72,6 +78,9 @@ def parse(html):
     table = soup.find("table", id="exhibitors_list_table")
     if table is None:
         sys.exit("Exhibitor table not found; the page layout may have changed.")
+    # The site's own country filter, used to settle spellings that differ only in letter case.
+    site_countries = {clean(o.get_text()).casefold(): clean(o.get_text())
+                      for o in soup.select("select#cmbCountry option") if o.get("value")}
     records, problems = [], []
     for i, tr in enumerate(table.find("tbody").find_all("tr", recursive=False), start=1):
         name_td, country_td, stand_td, profiles_td, categories_td = tr.find_all("td", recursive=False)
@@ -104,6 +113,10 @@ def parse(html):
         unknown = {clean(h.get_text()).rstrip(":") for h in info.find_all("h4")} - {"Country", "Stand Number", "Profiles"}
         if unknown:
             problems.append(f"row {i}: popup has fields this script does not capture: {sorted(unknown)}")
+
+        listed_country = rec["country"]
+        rec["country"] = site_countries.get(listed_country.casefold(), listed_country)
+        rec["country_listed"] = listed_country if rec["country"] != listed_country else ""
         records.append(rec)
     return records, problems
 
@@ -114,8 +127,15 @@ def notes_for(rec):
         notes.append("Looks like an organizer test entry; kept because it is on the site's list.")
     if not rec["stand_listed"]:
         notes.append("No stand number listed on the site.")
+    elif rec["hall"] and not WELL_FORMED_HALL_RE.match(rec["stand_listed"]):
+        notes.append(f"Hall read from the site's stand text '{rec['stand_listed']}'.")
     if rec["line_breaks_in_name"]:
         notes.append("Name spaced as the site displays it (its source text has line breaks mid-word).")
+    if rec["country_listed"]:
+        notes.append(f"Country written '{rec['country_listed']}' on this row of the site; "
+                     "shown as spelled in the site's country filter.")
+    if any(len(tag) >= TAG_LIMIT for tag in rec["profiles"] + rec["categories"]):
+        notes.append(f"A tag on this row stops at {TAG_LIMIT} characters on the site itself (cut off there).")
     return " ".join(notes)
 
 
@@ -127,7 +147,7 @@ def style_header(ws, row, ncols):
         cell.alignment = Alignment(vertical="center", wrap_text=True)
 
 
-def write_workbook(records, path, extracted_on):
+def write_workbook(records, path, taken_at):
     wb = Workbook()
     ws = wb.active
     ws.title = "Exhibitors"
@@ -155,8 +175,7 @@ def write_workbook(records, path, extracted_on):
             cell.alignment = wrap if cell.column in (2, 7, 8, 11) else top
             if cell.column == 9 and cell.value:
                 cell.hyperlink = cell.value
-                cell.style = "Hyperlink"
-                cell.alignment = top
+                cell.font = LINK_FONT
     style_header(ws, 1, len(COLUMNS))
     ws.row_dimensions[1].height = 30
     ws.freeze_panes = "C2"
@@ -174,7 +193,7 @@ def write_workbook(records, path, extracted_on):
     halls = collections.Counter(r["hall"] or "Not stated" for r in records)
     facts = [
         ("Source", URL),
-        ("Extracted on", extracted_on),
+        ("Snapshot taken", taken_at),
         ("Total exhibitors", len(records)),
         ("Countries", len(countries)),
         ("Pages on site (20 per page)", records[-1]["page"] if records else 0),
@@ -183,17 +202,28 @@ def write_workbook(records, path, extracted_on):
     ]
     for offset, (label, value) in enumerate(facts, start=3):
         summary.cell(row=offset, column=1, value=label).font = Font(bold=True)
-        summary.cell(row=offset, column=2, value=value).alignment = Alignment(horizontal="left")
+        cell = summary.cell(row=offset, column=2, value=value)
+        cell.alignment = Alignment(horizontal="left")
+        if isinstance(value, str) and urlparse(value).scheme == "https":
+            cell.hyperlink = value
+            cell.font = LINK_FONT
 
     row = len(facts) + 4
     summary.cell(row=row, column=1, value="Notes").font = Font(bold=True)
     notes = [
+        "The site's list is live: exhibitors can still be added or edited before the show, so this is a "
+        "snapshot as of the time above.",
         "Rows are in the site's own A–Z order; 'Page on Site' is the list page each exhibitor appears on.",
         "'Hall' and 'Stand No.' are split out of the site's stand text, which is kept unchanged in "
         "'Stand (as listed on site)'. A stand shown as '-' on the site is left blank in 'Stand No.'.",
         "Profiles and Categories are the tags each exhibitor selected (some are free text), separated by '; '.",
         "The list page's heading says it covers Halls 2–6.",
     ]
+    code_no_hall = sum(1 for r in records if r["stand_listed"] and not r["hall"])
+    no_stand = sum(1 for r in records if not r["stand_listed"])
+    if code_no_hall or no_stand:
+        notes.append(f"'Not stated' in the hall table covers {code_no_hall} exhibitors listed with a stand code "
+                     f"but no hall, and {no_stand} with no stand listed.")
     for offset, note in enumerate(notes, start=row + 1):
         summary.cell(row=offset, column=1, value=note)
         summary.merge_cells(start_row=offset, start_column=1, end_row=offset, end_column=3)
@@ -238,7 +268,8 @@ def main():
     records, problems = parse(html)
     for problem in problems:
         print("WARNING:", problem, file=sys.stderr)
-    write_workbook(records, args.out, datetime.date.today().isoformat())
+    taken = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    write_workbook(records, args.out, taken)
     print(f"{len(records)} exhibitors written to {args.out}")
 
 
