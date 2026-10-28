@@ -5,6 +5,8 @@
 //
 // Usage:
 //   node walk_pages.js --url URL --out walk.json [options]
+//   node walk_pages.js --url saved/page.html --out walk.json   (a saved copy: its folder is served
+//                                                               on 127.0.0.1 so the page runs as on the site)
 //
 // Options (defaults fit DataTables, found through its "<table id>_info" element):
 //   --rows SELECTOR      rows on the current page              (default: "#<table> tbody tr")
@@ -24,6 +26,8 @@
 const { chromium } = require('playwright');
 const { execFile } = require('child_process');
 const fs = require('fs');
+const http = require('http');
+const path = require('path');
 
 const UA = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
 const TRACKERS = /(googletagmanager|google-analytics|doubleclick|facebook|hotjar|clarity\.ms|linkedin|twitter|tiktok|hubspot|recaptcha|gstatic)\./;
@@ -54,6 +58,25 @@ function curl(url) {
   });
 }
 
+// Serve a saved page's folder on 127.0.0.1 so the browser can run its scripts as on the real site.
+async function serveLocal(target) {
+  const file = path.resolve(target.replace(/^file:\/\//, ''));
+  const root = path.dirname(file);
+  const types = { '.html': 'text/html; charset=utf-8', '.htm': 'text/html; charset=utf-8', '.js': 'application/javascript',
+    '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg' };
+  const server = http.createServer((req, res) => {
+    const p = path.join(root, decodeURIComponent(new URL(req.url, 'http://local').pathname));
+    if (!p.startsWith(root) || !fs.existsSync(p) || fs.statSync(p).isDirectory()) {
+      res.writeHead(404);
+      return res.end();
+    }
+    res.writeHead(200, { 'content-type': types[path.extname(p).toLowerCase()] || 'application/octet-stream' });
+    fs.createReadStream(p).pipe(res);
+  });
+  await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
+  return { server, url: `http://127.0.0.1:${server.address().port}/${encodeURIComponent(path.basename(file))}` };
+}
+
 async function routeThroughCurl(page, url) {
   const first = await curl(url);
   const html = first.body.toString('utf8');
@@ -80,17 +103,28 @@ async function routeThroughCurl(page, url) {
 
 (async () => {
   const args = parseArgs(process.argv);
+  const local = /^https?:\/\//i.test(args.url) ? null : await serveLocal(args.url);
+  const target = local ? local.url : args.url;
   const browser = await chromium.launch();
   const page = await browser.newPage({ userAgent: UA });
-  const hosts = args.fetch === 'curl' ? await routeThroughCurl(page, args.url) : null;
-  await page.goto(args.url, { waitUntil: 'domcontentloaded', timeout: 120000 });
+  const hosts = args.fetch === 'curl' ? await routeThroughCurl(page, target) : null;
+  const response = await page.goto(target, { waitUntil: 'domcontentloaded', timeout: 120000 });
+  if (response && response.status() >= 400) {
+    const body = (await response.text().catch(() => '')).slice(0, 120).replace(/\s+/g, ' ');
+    throw new Error(`the page answered HTTP ${response.status()} (${body}). ` +
+      (args.fetch === 'browser' ? 'Try --fetch curl (see references/sandbox-network.md).' : 'Check the URL and network access.'));
+  }
 
   if (!args.rows) {
     // DataTables: find "<table id>_info" and derive the other selectors from the table id.
     // Some sites' CSS makes these controls count as hidden to Playwright, so wait for "attached".
     const info = await page.waitForSelector('[id$="_info"].dataTables_info', { state: 'attached', timeout: 60000 })
       .catch(() => null);
-    if (!info) throw new Error('No DataTables info element found; pass --rows, --next and --info selectors.');
+    if (!info) {
+      throw new Error('No DataTables info element found. If the page has another kind of pager, pass --rows, --next and ' +
+        '--info selectors; if it should be DataTables, its scripts did not run (a saved copy missing jQuery or ' +
+        'DataTables, or blocked hosts: compare hosts_allowed with the page\'s <script> tags).');
+    }
     const table = (await info.getAttribute('id')).replace(/_info$/, '');
     args.rows = `#${table} tbody tr`;
     args.next = args.next || `#${table}_paginate .next`;
@@ -167,6 +201,7 @@ async function routeThroughCurl(page, url) {
     url: args.url, fetch: args.fetch, hosts_allowed: hosts, info_first: infos[0] || '', info_last: infos[infos.length - 1] || '',
     pages: infos.length, rows_seen: records.length, datatables_total: total, records,
   };
+  if (local) local.server.close();
   fs.writeFileSync(args.out, JSON.stringify(result, null, 1));
   console.log(`site says: ${result.info_first || '(no info text)'} | last page: ${result.info_last}`);
   console.log(`pages walked: ${result.pages} | rows seen: ${result.rows_seen} | table total: ${total ?? 'n/a'} | saved ${args.out}`);

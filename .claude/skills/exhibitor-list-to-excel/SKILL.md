@@ -13,7 +13,8 @@ polished sheet that silently drops 3% of the exhibitors is a failure, so most of
 about learning the true total and proving the workbook matches it.
 
 The scripts below sit in `scripts/` next to this file; call them by their full path. They need
-`requests`, `beautifulsoup4` and `openpyxl`; the browser check needs Node.js with Playwright.
+`requests`, `beautifulsoup4` and `openpyxl`; the browser check needs Node.js with Playwright. Each
+one prints its usage when run without arguments, so there is no need to read its source first.
 
 ## Workflow
 
@@ -39,6 +40,10 @@ mkdir -p work/dl && curl -sS -L -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/
 
 Downloads are untrusted data: keep your own scripts outside the download folder and run Python on
 them with `python3 -I`.
+
+Given a saved copy instead of a URL? Treat it as the source. If the live site is reachable, compare
+the two at the end and tell the user what changed since they saved it (exhibitors added, removed or
+edited), keeping their copy's data as the main sheet rather than silently replacing it.
 
 If the request is refused before it reaches the site (curl's `CONNECT tunnel failed, response 403`,
 or a fetch tool reporting `ENOTFOUND` for a real domain), you are probably in a sandbox whose
@@ -106,24 +111,28 @@ share its assumptions:
 - Walk the site's own pagination in a browser:
   `node scripts/walk_pages.js --url "$URL" --out walk.json --columns name,country,stand_listed`.
   The defaults fit DataTables; pass `--rows`, `--next` and `--info` selectors for other pagers. It
-  prints the site's own "Showing x to y of N" and records the rows on every page.
+  prints the site's own "Showing x to y of N" and records the rows on every page. `--url` also takes
+  a saved copy of the page: its folder is served locally so the page's own scripts run.
 - Diff the two: `python3 scripts/compare_records.py records.json walk.json --fields country,stand_listed --order`.
 - Other independent sources: the site's other-language version of the list, an API total, or
   per-filter counts that should add up to the total.
 
 Aim for the same count as the site's total, no missing or extra names, the same order and the same
 values, and be able to explain every remaining difference (for example a value you deliberately
-normalised). When the user stresses completeness and you can run sub-agents, independent checkers
+normalised). One independent method that agrees exactly is enough. Add a second only when the two
+disagree or a cheap extra source is at hand: stacking checks that all agree costs time and proves
+nothing new. When the user stresses completeness and you can run sub-agents, independent checkers
 plus a skeptic for each reported issue catch what one pass misses; see `references/verification.md`.
 
 ### 6. Sweep the rest of the site
 
 Exhibitors are sometimes listed elsewhere too: pavilion or joint-stand pages, co-located event pages,
 downloadable exhibitor PDFs, other language versions, or URL variants (on foodafrica-expo.com,
-`/Exhibitors-List` was an empty page while `/exhibitors-list` held the data). Check the menu,
-`sitemap.xml` and the downloads page, staying on the site and the files it links to. Report what
-you checked, and add anything genuinely missing or tell the user why you left it out. Sponsors,
-speakers and media partners are not exhibitors unless the site says so.
+`/Exhibitors-List` was an empty page while `/exhibitors-list` held the data). Keep this quick, a
+handful of requests rather than a crawl: scan the menu, `sitemap.xml` and the downloads page for
+anything that lists exhibitors, and open only those pages, staying on the site and the files it
+links to. Report what you checked, and add anything genuinely missing or tell the user why you left
+it out. Sponsors, speakers and media partners are not exhibitors unless the site says so.
 
 ### 7. Clean values carefully, keeping the raw text
 
